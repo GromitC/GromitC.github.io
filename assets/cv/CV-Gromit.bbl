@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{1}
 
 \bibitem{li2016visual}
 Quan Li, Peng Xu, \underline{Yeuk-Yin Chan}, Yun Wang, Zhipeng Wang, Huamin Qu,
@@ -29,14 +29,6 @@ Abishek Puri, Dongyu Liu, Shaoyu Chen, Siwei Fu, Tianyu Wang,
 \newblock {\em \newline International Conference on Knowledge Discovery and
   Data Mining (\textbf{KDD})}, 2021.
 
-\bibitem{chan2021melody}
-\underline{Gromit Yeuk-Yin Chan}, Luis~Gustavo Nonato, Enrico Bertini, Brian
-  Barr, and Cl{\'a}udio~T Silva.
-\newblock \newline {Melody: Visualizing Feature Importance Explanations At
-  Scale To Understand Data and Classifiers Together}.
-\newblock {\em \newline IEEE transactions on visualization and computer
-  graphics (\textbf{TVCG})}, 2021.
-
 \bibitem{chan2019motion}
 \underline{Gromit Yeuk-Yin Chan}, Luis~Gustavo Nonato, Alice Chu, Preeti
   Raghavan, Viswanath Aluru, and Cl{\'a}udio~T Silva.
@@ -44,14 +36,6 @@ Abishek Puri, Dongyu Liu, Shaoyu Chen, Siwei Fu, Tianyu Wang,
   Limb Movement Under Obstetrical Brachial Plexus Injuries}.
 \newblock {\em \newline IEEE transactions on visualization and computer
   graphics (\textbf{TVCG})}, 2020.
-
-\bibitem{chan2021time}
-\underline{Gromit Yeuk-Yin Chan}, Luis~Gustavo Nonato, Themis Palpanas,
-  Cl{\'a}udio~T Silva, and Juliana Freire.
-\newblock \newline {TiVy: Time Series Visual Summary for Scalable
-  Visualization}.
-\newblock {\em \newline IEEE transactions on visualization and computer
-  graphics (\textbf{TVCG})}, 2021.
 
 \bibitem{chan2018v}
 \underline{Gromit Yeuk-Yin Chan}, Panpan Xu, Zeng Dai, and Liu Ren.

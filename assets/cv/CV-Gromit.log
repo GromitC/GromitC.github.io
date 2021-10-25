@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.5.16)  18 MAY 2021 02:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2020.5.16)  25 OCT 2021 04:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/gromit/www/yychan/cv/CV-Gromit.tex
-(/Users/gromit/www/yychan/cv/CV-Gromit.tex
+**/Users/gromit/GromitC.github.io/assets/cv/CV-Gromit.tex
+(/Users/gromit/GromitC.github.io/assets/cv/CV-Gromit.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/Users/gromit/www/yychan/cv/resume.cls
+(/Users/gromit/GromitC.github.io/assets/cv/resume.cls
 Document Class: resume 2010/07/10 v0.9 Resume class
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -538,7 +538,7 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidth=\dimen177
 \titlewidthlast=\dimen178
 \titlewidthfirst=\dimen179
-) (/Users/gromit/www/yychan/cv/CV-Gromit.aux)
+) (/Users/gromit/GromitC.github.io/assets/cv/CV-Gromit.aux)
 \openout1 = `CV-Gromit.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -637,7 +637,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 48.
 LaTeX Info: Redefining \pageref on input line 48.
 LaTeX Info: Redefining \nameref on input line 48.
- (/Users/gromit/www/yychan/cv/CV-Gromit.out) (/Users/gromit/www/yychan/cv/CV-Gromit.out)
+ (/Users/gromit/GromitC.github.io/assets/cv/CV-Gromit.out) (/Users/gromit/GromitC.github.io/assets/cv/CV-Gromit.out)
 \@outlinefile=\write3
 \openout3 = `CV-Gromit.out'.
 
@@ -709,10 +709,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathsf_int=\count158
 \c__siunitx_mathtt_int=\count159
- (/Users/gromit/www/yychan/cv/CV-Gromit.bbl)
+ (/Users/gromit/GromitC.github.io/assets/cv/CV-Gromit.bbl)
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 52.
- (/Users/gromit/www/yychan/cv/section/research.tex
+ (/Users/gromit/GromitC.github.io/assets/cv/section/research.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 11.39996pt on input line 3.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
@@ -720,35 +720,35 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 11.39996pt on input line 3.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 6.
-) (/Users/gromit/www/yychan/cv/section/education.tex
+(Font)              scaled to size 9.49997pt on input line 4.
+) (/Users/gromit/GromitC.github.io/assets/cv/section/education.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 9.49997pt on input line 13.
-) (/Users/gromit/www/yychan/cv/section/experience.tex
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 9.
+) (/Users/gromit/GromitC.github.io/assets/cv/section/experience.tex) (/Users/gromit/GromitC.github.io/assets/cv/section/publication.tex
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 3.
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 15.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 15.
+LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
+(Font)              scaled to size 9.49997pt on input line 15.
+LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
+(Font)              scaled to size 9.49997pt on input line 18.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (/Users/gromit/GromitC.github.io/assets/cv/section/patent.tex) (/Users/gromit/GromitC.github.io/assets/cv/section/teaching.tex) (/Users/gromit/GromitC.github.io/assets/cv/section/service.tex
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 7.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 9.
- [1
-
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (/Users/gromit/www/yychan/cv/section/publication.tex
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 8.54997pt on input line 3.
-LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 8.
-LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 8.
-LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 9.49997pt on input line 8.
-LaTeX Font Info:    Font shape `T1/phv/m/sc' will be
-(Font)              scaled to size 9.49997pt on input line 18.
-) (/Users/gromit/www/yychan/cv/section/patent.tex [2]) (/Users/gromit/www/yychan/cv/section/teaching.tex) (/Users/gromit/www/yychan/cv/section/service.tex) (/Users/gromit/www/yychan/cv/section/presentation.tex (/usr/local/texlive/2015/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+) (/Users/gromit/GromitC.github.io/assets/cv/section/presentation.tex [2] (/usr/local/texlive/2015/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
 File: UTF8.bdg 2015/04/18 4.8.4
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2015/04/18 4.8.4
@@ -764,11 +764,11 @@ File: c70bsmi.fdx 2015/04/18 4.8.4
 File: UTF8.enc 2015/04/18 4.8.4
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2015/04/18 4.8.4
-)) (/Users/gromit/www/yychan/cv/section/award.tex) (/Users/gromit/www/yychan/cv/section/personal.tex [3])
+)) (/Users/gromit/GromitC.github.io/assets/cv/section/award.tex) (/Users/gromit/GromitC.github.io/assets/cv/section/personal.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 64.
- [4]
+ [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 64.
- (/Users/gromit/www/yychan/cv/CV-Gromit.aux)
+ (/Users/gromit/GromitC.github.io/assets/cv/CV-Gromit.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 64.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 64.
 Package rerunfilecheck Info: File `CV-Gromit.out' has not changed.
@@ -776,18 +776,18 @@ Package rerunfilecheck Info: File `CV-Gromit.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 64.
  ) 
 Here is how much of TeX's memory you used:
- 16683 strings out of 493089
- 317476 string characters out of 6134842
- 361918 words of memory out of 5000000
- 19927 multiletter control sequences out of 15000+600000
+ 16674 strings out of 493089
+ 317886 string characters out of 6134842
+ 359827 words of memory out of 5000000
+ 19923 multiletter control sequences out of 15000+600000
  50640 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,5n,39p,10435b,859s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu57.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu59.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu64.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu65.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6d.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6f.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu73.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu75.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu78.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu79.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7d.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu80.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8b.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8c.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu90.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu96.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiuff.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on /Users/gromit/www/yychan/cv/CV-Gromit.pdf (4 pages, 122198 bytes).
+ 39i,6n,39p,10449b,894s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu57.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu59.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu64.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu65.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6d.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu6f.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu73.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu75.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu78.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu79.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu7d.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu80.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8b.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu8c.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu90.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiu96.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/arphic/bsmiu/bsmiuff.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on /Users/gromit/GromitC.github.io/assets/cv/CV-Gromit.pdf (3 pages, 112203 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
+ 148 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 24 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
