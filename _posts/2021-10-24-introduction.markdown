@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Cup of Read"
+title:  "A Cup of Read: Introduction"
 date:   2021-10-24 23:31:30 -0700
 categories: uncategorized
 ---
