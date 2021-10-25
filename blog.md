@@ -2,7 +2,8 @@
 layout: default
 title: Blog
 ---
-<h1>Latest Posts</h1>
+<h1>A Cup of Read</h1>
+<h3 style="color:grey;"><i>A Paper Digest of Computer Science Research by Gromit Chan</i></h3>
 
 <ul>
   {% for post in site.posts %}

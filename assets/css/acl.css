@@ -255,5 +255,14 @@ body{
 	color: white;
 }
 li{
-  margin: 30px 0;
+  /* margin: 30px 0; */
+}
+
+.blog-content {
+	text-align: left;
+}
+
+.blog-content > p > img {
+	margin-left: 15%;
+	display: block;
 }
