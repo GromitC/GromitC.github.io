@@ -1,0 +1,84 @@
+\begin{thebibliography}{10}
+
+\bibitem{li2016visual}
+Quan Li, Peng Xu, \underline{Yeuk-Yin Chan}, Yun Wang, Zhipeng Wang, Huamin Qu,
+  and Xiaojuan Ma.
+\newblock \newline {A Visual Analytics Approach for Understanding Reasons
+  behind Snowballing and Comeback in MOBA Games}.
+\newblock {\em \newline IEEE transactions on visualization and computer
+  graphics (\textbf{TVCG})}, 2017.
+
+\bibitem{puri2015parkvis}
+Abishek Puri, Dongyu Liu, Shaoyu Chen, Siwei Fu, Tianyu Wang,
+  \underline{Yeuk-Yin Chan}, and Huamin Qu.
+\newblock \newline {ParkVis: A visual analytic system for anomaly detection in
+  DinoFun World}.
+\newblock {\em \newline IEEE VIS Workshop on VAST Challenge}, 2015.
+
+\bibitem{chan2020real}
+\underline{Gromit Yeuk-Yin Chan}, Fan Du, Ryan~A Rossi, Anup~B Rao, Eunyee Koh,
+  Cl{\'a}udio~T Silva, and Juliana Freire.
+\newblock \newline {Real-Time Clustering for Large Sparse Online Visitor Data}.
+\newblock {\em \newline The Web Conference (\textbf{WWW})}, 2020.
+
+\bibitem{chan2021ae}
+\underline{Gromit Yeuk-Yin Chan}, Tung Mai, Anup~B Rao, Ryan~A Rossi, Fan Du,
+  Cl{\'a}udio~T Silva, and Juliana Freire.
+\newblock \newline {Interactive Audience Expansion On Large Scale Online
+  Visitor Data}.
+\newblock {\em \newline International Conference on Knowledge Discovery and
+  Data Mining (\textbf{KDD})}, 2021.
+
+\bibitem{chan2021melody}
+\underline{Gromit Yeuk-Yin Chan}, Luis~Gustavo Nonato, Enrico Bertini, Brian
+  Barr, and Cl{\'a}udio~T Silva.
+\newblock \newline {Melody: Visualizing Feature Importance Explanations At
+  Scale To Understand Data and Classifiers Together}.
+\newblock {\em \newline IEEE transactions on visualization and computer
+  graphics (\textbf{TVCG})}, 2021.
+
+\bibitem{chan2019motion}
+\underline{Gromit Yeuk-Yin Chan}, Luis~Gustavo Nonato, Alice Chu, Preeti
+  Raghavan, Viswanath Aluru, and Cl{\'a}udio~T Silva.
+\newblock \newline {Motion Browser: Visualizing and Understanding Complex Upper
+  Limb Movement Under Obstetrical Brachial Plexus Injuries}.
+\newblock {\em \newline IEEE transactions on visualization and computer
+  graphics (\textbf{TVCG})}, 2020.
+
+\bibitem{chan2021time}
+\underline{Gromit Yeuk-Yin Chan}, Luis~Gustavo Nonato, Themis Palpanas,
+  Cl{\'a}udio~T Silva, and Juliana Freire.
+\newblock \newline {TiVy: Time Series Visual Summary for Scalable
+  Visualization}.
+\newblock {\em \newline IEEE transactions on visualization and computer
+  graphics (\textbf{TVCG})}, 2021.
+
+\bibitem{chan2018v}
+\underline{Gromit Yeuk-Yin Chan}, Panpan Xu, Zeng Dai, and Liu Ren.
+\newblock \newline \textsc{ViBr}{: Visualizing Bipartite Relations at Scale
+  with the Minimum Description Length Principle}.
+\newblock {\em \newline IEEE transactions on visualization and computer
+  graphics (\textbf{TVCG})}, 2019.
+
+\bibitem{chan2017querying}
+\underline{Yeuk-Yin Chan}, Fernando Chirigati, Harish Doraiswamy, Cl{\'a}udio~T
+  Silva, and Juliana Freire.
+\newblock \newline {Querying and Exploring Polygamous Relationships in Urban
+  Spatio-Temporal Data Sets}.
+\newblock {\em \newline ACM International Conference on Management of Data
+  (\textbf{SIGMOD})}, 2017.
+
+\bibitem{chan2016finavistory}
+\underline{Yeuk-Yin Chan} and Huamin Qu.
+\newblock \newline {FinaVistory: Using Narrative Visualization to Explain
+  Social and Economic Relationships in Financial News}.
+\newblock {\em \newline International Conference on Big Data and Smart
+  Computing (\textbf{BigComp})}, 2016.
+
+\bibitem{zheng2016you}
+Rong Zheng and \underline{Yeuk-Yin Chan}.
+\newblock \newline {You Like What You Hear: Using Movie Content to Improve
+  Movie Recommender Systems}.
+\newblock {\em \newline Winter Conference on Business Intelligence}, 2016.
+
+\end{thebibliography}

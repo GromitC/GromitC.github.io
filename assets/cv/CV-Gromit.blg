@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: CV-Gromit.aux
+The style file: plain.bst
+Database file #1: pub.bib
+You've used 11 entries,
+            2118 wiz_defined-function locations,
+            544 strings with 6858 characters,
+and the built_in function-call counts, 3747 in all, are:
+= -- 323
+> -- 318
+< -- 0
++ -- 125
+- -- 114
+* -- 283
+:= -- 716
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 90
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 110
+empty$ -- 188
+format.name$ -- 114
+if$ -- 704
+int.to.chr$ -- 0
+int.to.str$ -- 11
+missing$ -- 11
+newline$ -- 58
+num.names$ -- 22
+pop$ -- 90
+preamble$ -- 1
+purify$ -- 79
+quote$ -- 0
+skip$ -- 78
+stack$ -- 0
+substring$ -- 55
+swap$ -- 11
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 44
+warning$ -- 0
+while$ -- 22
+width$ -- 13
+write$ -- 112

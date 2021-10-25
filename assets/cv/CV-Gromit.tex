@@ -1,0 +1,64 @@
+
+\documentclass[11pt]{resume} % Use the custom resume.cls style
+
+\usepackage{CJK}
+\newcommand{\zh}[1]{\begin{CJK}{UTF8}{bsmi}#1\end{CJK}}
+\newcommand{\zhs}[1]{\begin{CJK}{UTF8}{gbsn}#1\end{CJK}}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{bibentry}
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
+\usepackage{hyperref}
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
+\usepackage[scaled]{helvet}
+\usepackage[T1]{fontenc}
+\renewcommand\familydefault{\sfdefault}
+\usepackage{booktabs,siunitx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} % Document margins
+
+\usepackage{titlesec}
+\newcommand{\sectionfont}{\large\bfseries}
+\titleformat{\section}
+    {  
+     \titlerule[1.5pt]
+     \vspace{-2.33mm}%
+     \sectionfont
+     }
+    {\thesection}{0em}
+    {\raggedright\sectionfont\hspace{-1.3mm}}[\vspace{-3mm}]
+
+
+\definecolor{gainsboro}{rgb}{0.86, 0.86, 0.86}
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+\newcommand{\myhref}[2]{\href{#1}{\color{airforceblue}{#2}}}%
+
+
+
+\name{Gromit Yeuk-Yin CHAN } % Your name
+\address{11$^{th}$ Floor, 370 Jay Street, Brooklyn, NY 11201} % Your address
+\address{
+    Email: \myhref{mailto:gromit.chan@nyu.edu}{gromit.chan@nyu.edu}  \\ 
+    Website: \myhref{http://vgc.poly.edu/~yychan}{http://vgc.poly.edu/~yychan}
+    \\
+    Google Scholar: \myhref{https://scholar.google.com.hk/citations?user=t7tR7O0AAAAJ}{t7tR7O0AAAAJ}
+    \vspace{-3mm}
+} 
+
+\begin{document}
+\nobibliography{pub}
+\bibliographystyle{plain}
+\raggedright
+\small
+\input{section/research.tex}
+\input{section/education.tex}
+\input{section/experience.tex}
+\input{section/publication.tex}
+\input{section/patent.tex}
+\input{section/teaching.tex}
+\input{section/service.tex}
+\input{section/presentation.tex}
+\input{section/award.tex}
+\input{section/personal.tex}
+
+\end{document}

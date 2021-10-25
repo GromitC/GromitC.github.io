@@ -1,0 +1,259 @@
+
+ html{
+	overflow-y: scroll;
+	overflow-x: auto;
+	height: 100%;
+}
+ 
+ 
+/* Body */
+body{
+	font: 11px Avenir, Helvetica;
+	background-color: #005b7f; 
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+#outerwrapper{
+	width: 100%;
+	float: left;
+	border-bottom:7px white solid;
+	margin: 0px; padding: 0px 0px 10px 0px;
+	background-color: rgb(255,255,255);
+
+}
+
+#headwrapper{
+	background-color: #005b7f;
+	border-bottom:7px white solid;
+	float: left;
+	width: 100%;
+	height: 180px;
+	margin: 0px; padding: 0px;
+}
+
+/* Header */
+#header {
+	margin: 0px auto; padding: 0px;
+	height: 180px;
+	width: 835px;
+	background-color: #005b7f;
+	font: Avenir, Helvetica;
+}
+
+/* Header styles */
+
+#header #logo{
+	margin: 16px 40px 12px 0px; padding: 0px;
+	width: 80px;
+	height: 90px;
+	float: right;
+	
+}
+#header #logo #NYU img{
+
+	/* padding-top: 10px; */
+ 	max-height: 50px;
+  	max-width: 50px;
+    position: relative;
+    left: 35px;
+    top: -100px;
+}
+
+#header #logo #HKUST img{
+
+	/* padding-top: 10px; */
+ 	max-height: 50px;
+  	max-width: 50px;
+    position: relative;
+    left: 35px;
+    top: -100px;
+}
+
+#header #logo #Adobe img{
+
+	padding-top: 10px;
+ 	max-height: 100px;
+  	max-width: 100px;
+      position: relative;
+      left: -50px;
+    
+}
+
+#header #logo #cpgbm {
+	text-align: center;
+	background-color: #005b7f;
+	color: white;
+	font: 1.0em/1.0em Avenir, Helvetica;
+	letter-spacing: 0px;
+	height: 40%;
+	padding-top:5px;
+	fill:white;
+}
+
+#header #affiliation {
+	margin: 0px 0px 19px 35px;
+	width: 79%;
+	clear: left;
+	float: left;
+	color: white;
+	font: 1.7em/1.5em Avenir, Helvetica;
+	text-align: left;
+}
+
+#header #name {
+	margin: 25px 0px 0px 35px;
+	clear: left;
+	float: left;
+	color: white;
+	letter-spacing: 1.3px;
+	font: 3em Avenir, Helvetica;
+}
+
+#header #navi {
+	text-align: center;
+	margin: 0px 0px 0px 15px;
+	clear: both;
+	width: 100%;
+	font: 1.5em/2.1em Avenir, Helvetica;
+}
+
+#header #navi a {
+	text-decoration: none;
+}
+
+#header #navi a  #off{
+	color: white;
+	text-decoration: none;
+	background: #005b7f url(../images/naviwhiteblack.gif) no-repeat center;
+	margin: 9px 16px 0px 16px;
+	padding: 0px 0px 0px 0px;
+	width: 132px;
+	height: 30px;
+	float: left;
+}
+
+#header #navi a  #on{
+	color: black;
+	text-decoration: none;
+	background: white url(../images/naviallwhite.gif) no-repeat center;
+	margin: 10px 16px 0px 16px;
+	padding: 0px 0px 0px 0px;
+	width: 132px;
+	height: 30px;
+	float: left;
+}
+
+/* Content */
+#maincontent{
+	margin: 0px auto; padding: 0px;
+	width: 835px;
+	letter-spacing: .7px;
+	font: 1.3em Avenir, Helvetica;
+}
+
+#maincontent a{
+	color: #005b7f;
+	text-decoration: underline;
+	background: none;
+}
+ p{
+     font-size: 16px;
+ }
+#maincontent #onecol{
+	float: left;
+	margin: 25px 25px 25px 25px;
+	text-align: left;
+	width: 800px;
+}
+
+#maincontent #twocolleft{
+	float: left;
+	text-align: left;
+	margin: 25px 25px 25px 25px;
+}
+
+#maincontent #twocolright{
+	width: 59%;
+	float: right;
+	text-align: left;
+	margin: 25px 25px 25px 25px;
+}
+
+#maincontent #contact{
+	margin: 5px 0px 0px 0px;
+}
+
+#maincontent #subheader{
+	color: black;
+	font: 1.5em Georgia, serif;
+	letter-spacing: 1px;
+	border-bottom: 2px solid grey;
+	padding: 0px 0px 3px 0px;
+	margin: 5px 0px 4px -7px;
+}
+#maincontent #subsubheader{
+	color: black;
+	font: 1.1em Georgia, serif;	
+	padding: 0px 0px 3px 0px;
+	margin: 17px 0px 1px -4px;
+}
+
+#maincontent #twocolright #subsubheader{
+	border-bottom: 1px solid grey;
+}
+
+#maincontent #twocolleft #portrait{
+	max-width:240px;
+	width: expression(this.width > 240px ? 240px: true);
+	margin: 0px auto;
+}
+
+#maincontent #onecol #pubTitle {
+	font-style: oblique;
+}
+#maincontent #onecol #pubAuthor {
+	margin: 10px 0px 0px 0px;
+	font-weight: 700;
+}
+
+#maincontent #onecol img{
+	display: block;
+	max-width:800px;
+	width: expression(this.width > 800 ? 800: true);
+}
+
+#maincontent #paperlink{
+	border-bottom: 1px solid #485d00;
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 10px 0px;	
+}
+
+#maincontent #respform{
+	padding: 7px 0px;
+}
+
+#maincontent #leftcol{
+	width:500px;
+}
+#maincontent #rightcol img{
+	display: block;
+	max-width:300px;
+	width: expression(this.width > 300 ? 300: true);
+}
+/* Foot */
+#footer {	
+	height: 48px;
+	padding: 0px;
+	margin: 0px auto;
+	width: 835px;
+	background-color: #005b7f;
+	font: 1.3em/1.6em Avenir, Helvetica, Arial, sans-serif;
+	text-align: center;
+	color: white;
+}
+li{
+  margin: 30px 0;
+}
