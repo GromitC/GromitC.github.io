@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<link rel="stylesheet" href="{{ "assets/css/acl.css" | absolute_url }}" type="text/css" />
+<link rel="stylesheet" href="{{ "assets/css/acl.css" | relative_url }}" type="text/css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
@@ -25,19 +25,19 @@
 	<div id="header"> 
         
 		<div id="logo">
-            <div id="Adobe"><img src=" {{ "assets/images/adobe.png" | absolute_url }}"></div>
-            <div id="NYU"><img src=" {{ "assets/images/nyu.jpg" | absolute_url }}"></div>
-            <div id="HKUST"><img src=" {{ "assets/images/hkust.png" | absolute_url }}"></div>
+            <div id="Adobe"><img src=" {{ "assets/images/adobe.png" | relative_url }}"></div>
+            <div id="NYU"><img src=" {{ "assets/images/nyu.jpg" | relative_url }}"></div>
+            <div id="HKUST"><img src=" {{ "assets/images/hkust.png" | relative_url }}"></div>
         </div>
 		<!--Name-->
 		<div id="name">Gromit Yeuk-Yin Chan</div>
 		<div id="affiliation">Research Scientist, <a href="https://research.adobe.com/" style="color:white;">Adobe Research</a><br /> Ph.D, New York University</div>
 		<div id="navi">	
-            <a href="{{ "index.html" | absolute_url }}"><div id="{% if page.title == "Home" %}on{% else %}off{% endif %}">Home</div></a>
-			<a href="{{ "assets/cv/CV-gromit.pdf" | absolute_url }}"><div id="{% if page.title == "CV" %}on{% else %}off{% endif %}">CV</div></a>
-			<a href="{{"research.html" | absolute_url }}"><div id="{% if page.title == "Research" %}on{% else %}off{% endif %}">Research</div></a>
-			<a href="{{ "blog.html" | absolute_url }}"><div id="{% if page.title == "Blog" %}on{% else %}off{% endif %}">Blog</div></a>
-		    <a href="{{"personal.html" | absolute_url }}"><div id="{% if page.title == "Personal" %}on{% else %}off{% endif %}">Personal</div></a>
+            <a href="{{ "index.html" | relative_url }}"><div id="{% if page.title == "Home" %}on{% else %}off{% endif %}">Home</div></a>
+			<a href="{{ "assets/cv/CV-gromit.pdf" | relative_url }}"><div id="{% if page.title == "CV" %}on{% else %}off{% endif %}">CV</div></a>
+			<a href="{{"research.html" | relative_url }}"><div id="{% if page.title == "Research" %}on{% else %}off{% endif %}">Research</div></a>
+			<a href="{{ "blog.html" | relative_url }}"><div id="{% if page.title == "Blog" %}on{% else %}off{% endif %}">Blog</div></a>
+		    <a href="{{"personal.html" | relative_url }}"><div id="{% if page.title == "Personal" %}on{% else %}off{% endif %}">Personal</div></a>
 		</div>
 	</div>
 	<!--end Header-->
