@@ -28,9 +28,9 @@ Given the resulting table, we can also create a visualization that looks differe
 
 ![Analysis](/assets/images/digest/1025/1025_4.png){:width="600px" .center-image}
 
-The analysis between the possible visualizations and a table, both from the visual sketches and tables during the pruning stages, enable certain degrees of speed up in synthesizing the data wrangling steps. The intuition is that if a visual sketch can be "decomposed" into a line chart or bar chart, while the tables being validated can only be "decomposed" into a scatter plot, then it is also considered as a violation. The work has a detailed discussion into the rules for such purposes, but I am not going to discuss them here.
+The analysis between the possible visualizations and a table, both from the visual sketches and tables during the pruning stages, enable certain degrees of coverage in synthesizing the data wrangling steps. The intuition is that if a visual sketch can be "decomposed" into a line chart or bar chart, while the tables being validated can also be decomposed as a line chart, then a match will be resulted. The work has a detailed discussion into the rules for such purposes, but I am not going to discuss them here.
 
-For evaluation, the work presents the speed up among the algorithms with/without the visual decomposition and between itself and a benchmark called Morpheus.
+For evaluation, the work presents the recall of ground truth visualization among the algorithms with/without the visual decomposition and between itself and a benchmark called Morpheus.
 
 ![Analysis](/assets/images/digest/1025/1025_5.png){:width="600px" .center-image}
 
