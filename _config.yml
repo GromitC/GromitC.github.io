@@ -29,6 +29,8 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-analytics
+
 
 paginate: 5
 paginate_path: "/blog/page:num/"
