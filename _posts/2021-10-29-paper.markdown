@@ -6,7 +6,7 @@ categories: ACupOfRead
 
 [Atlas: Grammar-based Procedural Generation of Data Visualizations](https://www.zcliu.org/atlas/Atlas_VIS2021.pdf), Zhicheng Liu et al., IEEE VIS 2021
 
-Today I was swamped by the CHI review deadline, so let's look at something light and short. Atlas is an new and exciting visualization grammar that is <i>graphic-centric</i>. For a bit of context, most visualization grammars nowadays like [Vega-Lite](https://vega.github.io/vega-lite/) are data oriented. Data analysts mainly work on the data specification (e.g. defining columns for the x/y axes) to generate charts. However, Atlas works more in a designer's perspective. It first creates a graphics (e.g. circles/ rectangles). Then the graphics repeats or splits according to some attributes from the data, and lastly the positions or colors of the graphics are binded to other attributes in the remaining data. The below is an example.
+Today I was swamped by the CHI review deadline, so let's look at something light and short. Atlas is an new and exciting visualization grammar that is <i>graphic-centric</i>. For a bit of context, most visualization grammars nowadays like [Vega-Lite](https://vega.github.io/vega-lite/) are data-oriented. Data analysts mainly work on the data specification (e.g., defining columns for the x/y axes) to generate charts. However, Atlas works more from a designer's perspective. It first creates graphics (e.g., circles/ rectangles). Then the graphics repeat or splits according to some attributes from the data, and lastly, the positions or colors of the graphics bind to other attributes in the remaining data. The below is an example.
 
 ![Example](/assets/images/digest/1029/1029_1.png)
 
@@ -14,8 +14,8 @@ I am not going through all the steps in the pipeline, but it is worth mentioning
 
 ![Ops](/assets/images/digest/1029/1029_2.png)
 
-Once it is done, the graphics now contain "ports" to map to the data, in which we can now adjust the encodings and positions with the data values. The core advantage now is that we do not need to define a new mark for fancy charts. For example, a violin plot is a densified rectangle, and a star plot is a densified circle. It makes Atlas to be more concise than other data-oriented visualization grammars. 
+Once it is done, the graphics now contain "ports" to map to the data, in which we can now adjust the encodings and positions with the data values. The core advantage now is that we do not need to define a new mark for fancy charts. For example, a violin plot is a densified rectangle, and a star plot is a densified circle. It makes Atlas be more concise than other data-oriented visualization grammars. 
 
-The following shows the example of how to turn a circle into several plots. As we can see, the transformations among different plots has no changes on the number of graphics objects. I guess such provenance may enable lots of possible features like animations and visualization recommendation in the foreseeable future.
+The following shows an example of how to turn a circle into several plots. As we can see, the transformations among different plots have no changes on the number of graphics objects. I guess such provenance may enable lots of possible features like animations and visualization recommendations in the foreseeable future.
 
 ![Example2](/assets/images/digest/1029/1029_3.png)
