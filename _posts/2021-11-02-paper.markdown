@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "PEAX: Interactive Visual Pattern Search in Sequential Data Using Unsupervised Deep Representation Learning"
+categories: ACupOfRead
+---
+
+[PEAX: Interactive Visual Pattern Search in Sequential Data Using Unsupervised Deep Representation Learning](https://vcg.seas.harvard.edu/publications/peax-interactive-visual-pattern-search-in-sequential-data-using-unsupervised-deep-representation-learning/paper), Lekschas et al., EuroVis 2020
+
+Today I am going to introduce a paper I liked recently. Peax is an interactive system that combines AI and human-in-a-loop analytics to perform pattern searches in super long time series (i.e., gene data). It addresses a challenge that I often encounter with time-series data. How to measure similarity between two time series? (i.e., what makes users think two lines are similar?) Their take is that it <i>depends</i> and you never know. It would just be better to leave it for the users to decide. Therefore, the interesting thing is that how to establish a workflow for users to query patterns, provide feedback to the search, and then acquire better query results.
+
+The workflow overall is pretty simple and elegant. First, we break the time series into subsequences. The subsequences are then fed into a deep learning model (i.e., autoencoder) to become a fixed-length latent representation (i.e. a real-valued vector that captures the intrinsic information of the time series).
+![Pipeline](/assets/images/digest/1102/1102_2.png)
+Afterward, when the user query patterns based on a time series subsequence they are interested in, the system provide the nearest neighbor search based on the latent representations of the subsequences. But at the same time, it also asks the user to label each result from the query as either relevant/irrelevant. Therefore, with the labels, the system can now provide refined results that are not purely based on the similarities but predictions from a trained random forest classifier. The process of refining machine learning results based on user feedback is called active learning.
+
+Here is a nice figure illustrating the workflow and the system.
+![Pipeline](/assets/images/digest/1102/1102_1.png)
+
+To summarize, we can generalize a human-in-a-loop workflow that synergizes machine and human insights in the following way:
+1. Convert unstructured data into a latent representation with deep learning models.
+2. Treat the latent representations as structured high dimensional data and apply visual analytics approaches to them (e.g., projections).
+3. Try to conceptualize human insights as labels for supervised machine learning that provides better predictions/ recommendations.
+4. Repeat steps (2)-(3) until everyone is happy.
