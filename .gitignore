@@ -8,3 +8,8 @@ Gemfile.lock
 node_modules
 package.json
 vendor
+assets/cv/CV-Gromit.blg
+assets/cv/CV-Gromit.fdb_latexmk
+assets/cv/CV-Gromit.fls
+assets/cv/CV-Gromit.log
+assets/cv/CV-Gromit.synctex.gz
