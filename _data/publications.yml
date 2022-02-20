@@ -39,17 +39,20 @@
 - author: Quan Li, Peng Xu, Yeuk Yin Chan, Yun Wang, Zhipeng Wang, Huamin Qu, and Xiaojuan Ma
   title: A Visual Analytics Approach for Understanding Reasons behind Snowballing and Comeback in MOBA Games
   image: li-vast2016.png
+  venue: IEEE Transactions on Visualization and Computer Graphics (VIS 2016)
   link: "http://ieeexplore.ieee.org/abstract/document/7534855/"
   paper: li-vast2016.pdf
 
 - author: Yeuk Yin Chan, and Huamin Qu
   title: "FinaVistory: Using Narrative Visualization to explain social and Economic relationships in financial news."
   image: chan-bigcomp2016.png
+  venue: International Conference on Big Data and Smart Computing (BigComp 2016)
   link: "http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=7425798&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D7425798"
   paper: chan-bigcomp2016.pdf
 
 - author: Abishek Puri, Dongyu Liu, Shaoyu Chen, Siwei Fu, Tianyu Wang, Yeuk-Yin Chan and Huamin Qu
   title: "ParkVis: A visual analytic system for anomaly detection in DinoFun World"
   image: puri-vast2015.png
+  venue: IEEE VIS Workshop on VAST Challenge 2015
   link: "http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7347641"
   paper: puri-vast2015.pdf
