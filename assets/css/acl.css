@@ -129,7 +129,7 @@ body{
 	text-decoration: none;
 	background: url(../images/naviwhiteblack.svg) no-repeat center;
     /* background-size: 132px 30px; */
-	margin: 10px 16px 0px 0px;
+	margin: 5px 16px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	width: 142px;
 	height: 30px;
@@ -140,7 +140,7 @@ body{
 	color: black;
 	text-decoration: none;
 	background: url(../images/naviallwhite.svg) no-repeat center;
-	margin: 10px 16px 0px 0px;
+	margin: 5px 16px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	width: 142px;
 	height: 30px;
