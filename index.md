@@ -8,7 +8,7 @@ title: Home
 
 <div id="twocolleft">
     <!-- your picture should not exceed a width of 240px, preferably 239px, otherwise internet explorer 8 (and maybe other version) does not disply the website correctly-->
-    <img id="portrait" src="assets/images/portrait.jpg">
+    <img id="portrait" src="assets/images/portrait.png">
     <!-- <div id="contact">Phone: +44 (0)20 7955 1111</div> -->
     <div id="contact"><i class="fa fa-envelope"></i>: <span style="font-size:12px;">gromit.y.chan(at)gmail(dot)com</span></div>
     <div id="contact"><i class="fa fa-twitter"></i>: <a href="https://twitter.com/GromitC">GromitC</a> <i class="fa fa-graduation-cap"></i>: <a href="https://scholar.google.com/citations?user=t7tR7O0AAAAJ">Google Scholar</a></div>
