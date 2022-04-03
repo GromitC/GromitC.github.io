@@ -17,7 +17,7 @@ title: Home
 <div id="twocolright">
     <div id="subheader">Welcome</div>
     <div id="subsubheader">News:</div>
-    <div><font color="crimson">10/21: I will serve as a Program Committee in the Web Conference 2022.</font></div>
+    <div><font color="crimson">03/22: I appeared in Adobe Summit to showcase one of my ongoing research projects. Check it out <a target="_blank" href="https://business.adobe.com/summit/2022/sessions/project-style-blast-mb9-6.html">here</a>.</font></div>
    <div id="subsubheader">About Me:</div>
     My name is Gromit Yeuk-Yin CHAN  (陳若然), a Research Scientist in Adobe Research. 
     <br>
