@@ -24,11 +24,12 @@ title: Home
     I received my PhD in Computer Science from New York University in 2021, advised by <a target="_blank" href="https://ctsilva.github.io/">prof. Claudio T. Silva</a> and <a target="_blank" href="https://vgc.poly.edu/~juliana/">prof. Juliana Freire</a>.
     Before that, I obtained my double degree in Computer Engineering and Business Management from HKUST in 2016. 
     My research focus has been mainly in the area of visualization and data management, including large scale data visualization, Machine Learning algorithms with data sketching and distributed computing, and visual analytics systems. 
+    As a research scientist, I develop and transfer database, visualization, and HCI technologies to Adobe Experience Cloud.
     <br>
-    Now as a research scientist, I develop and transfer database, visualization, and HCI technologies to Adobe Experience Cloud.
+    <br>
     Here are some of the projects that keep me busy:
     <ul style="padding-left: 10px;">
-    <li><i>Optimizing Query Performance on Machine Learning Pipelines</i>: Developing frameworks to reduce complex queries needed for ML training/inferences. </li>
+    <li><i>Optimizing Query Performance on Machine Learning Pipelines</i>: Developing frameworks to reduce complex queries needed for ML training/inference. </li>
     <li><i>Creative Content Synthesis and Sharing</i>: Developing robust algorithms to share creative contents (e.g. posters) in different formats (e.g. PNG, PSD, or HTML). </li>
     </ul>
     I am constantly looking for interns and collaborators to work on research projects in DB/VIS/HCI. Please send me an email to reach out and learn more.
