@@ -28,8 +28,8 @@ title: Home
     Now as a research scientist, I develop and transfer database, visualization, and HCI technologies to Adobe Experience Cloud.
     Here are some of the projects that keep me busy:
     <ul style="padding-left: 10px;">
-    <li>Optimizing Query Performance on Machine Learning Pipelines: Developing frameworks to reduce complex queries needed for ML training/inferences. </li>
-    <li>Creative Content Synthesis and Sharing: Developing robust algorithms to share creative contents (e.g. posters) in different formats (e.g. PNG, PSD, or HTML). </li>
+    <li><i>Optimizing Query Performance on Machine Learning Pipelines</i>: Developing frameworks to reduce complex queries needed for ML training/inferences. </li>
+    <li><i>Creative Content Synthesis and Sharing</i>: Developing robust algorithms to share creative contents (e.g. posters) in different formats (e.g. PNG, PSD, or HTML). </li>
     </ul>
     I am constantly looking for interns and collaborators to work on research projects in DB/VIS/HCI. Please send me an email to reach out and learn more.
     <!-- I was a member in <a target="_blank" href="http://vgc.poly.edu/wiki/vgc/index.php/Main_Page">Visualization and Data Analytics (ViDA) lab</a> during my PhD and <a target="_blank" href="http://vis.cse.ust.hk/vislab_homepage/people.html">HKUST VisLab</a> during my undergraduate study. -->
