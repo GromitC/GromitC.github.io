@@ -1,3 +1,17 @@
+
+  
+- author: ​Jun Yuan​, Gromit Yeuk-Yin Chan, Kyle Overton, Brian Brian, Kim Rees, Luis Gustavo Nonato, Enrico Bertini, Cláudio T. Silva
+  title: "SUBPLEX: A Visual Analytics Approach to Understand Local Model Explanations at the Subpopulation Level"
+  venue: IEEE Computer Graphics & Applications 2022
+  image: jun-cga2022.png
+  paper: jun-cga2022.pdf
+
+- author: Peter Xenopoulos, Gromit Chan, Harish Doraiswamy, Luis Gustavo Nonato, Brian Barr, Claudio Silva
+  title: "GALE: Globally Assessing Local Explanations"
+  venue: ICML 2022 Workshop on Topology, Algebra, and Geometry in Machine Learning
+  image: xenopoulos-icml2022.png
+  paper: xenopoulos-icml2022.pdf
+
 - author: Gromit Yeuk-Yin Chan, Tung Mai, Anup Rao, Ryan Rossi, Fan Du, Cláudio T. Silva and Juliana Freire
   title: Interactive Audience Expansion On Large Scale Online Visitor Data
   venue: International Conference on Knowledge Discovery & Data Mining (KDD 2021)
