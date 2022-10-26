@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{li2016visual}
 Quan Li, Peng Xu, \underline{Yeuk-Yin Chan}, Yun Wang, Zhipeng Wang, Huamin Qu,
@@ -58,6 +58,21 @@ Abishek Puri, Dongyu Liu, Shaoyu Chen, Siwei Fu, Tianyu Wang,
   Social and Economic Relationships in Financial News}.
 \newblock {\em \newline International Conference on Big Data and Smart
   Computing (\textbf{BigComp})}, 2016.
+
+\bibitem{peter2022gale}
+Peter Xenopoulos, \underline{Gromit Chan}, Harish Doraiswamy, Luis~Gustavo
+  Nonato, Brian Barr, and Claudio Silva.
+\newblock \newline {GALE: Globally Assessing Local Explanations}.
+\newblock {\em \newline {ICML Workshop on Topology, Algebra, and Geometry in
+  Machine Learning}}, 2022.
+
+\bibitem{jun2022subplex}
+Jun Yuan, \underline{Gromit Yeuk-Yin Chan}, Brian Barr, Kyle Overton, Kim Rees,
+  Luis~Gustavo Nonato, Enrico Bertini, and Claudio~T Silva.
+\newblock {SUBPLEX: A Visual Analytics Approach to Understand Local Model
+  Explanations At the Subpopulation Level}.
+\newblock {\em \newline IEEE Computer Graphics and Applications
+  (\textbf{CG\&A})}, 2022.
 
 \bibitem{zheng2016you}
 Rong Zheng and \underline{Yeuk-Yin Chan}.
