@@ -38,3 +38,5 @@ gem "kramdown-parser-gfm"
 
 gem 'jekyll-analytics'
 
+
+gem "webrick", "~> 1.8"

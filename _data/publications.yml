@@ -1,5 +1,15 @@
+- author: Gromit Yeuk-Yin Chan, Shunan Guo, Caroline Kim, Cole Connelly, Michelle Lee, Andrew Thomson, Eunyee Koh
+  title: "Detecting Email Components with Constraints: Expressive and Extensible Models in Answer Set Programming"
+  venue: Proceedings of the 2022 Conference on Human Factors in Computing Systems (Late Breaking Work) (CHI LBW)
+  image: chan-chiea2023.png
+  paper: chan-chiea2023.pdf
 
-  
+- author: Shubham Agarwal, Gromit Yeuk-Yin Chan, Shaddy Garg, Tong Yu, Subrata Mitra
+  title: "Fast Natural Language Based Data Exploration with Samples"
+  venue: Proceedings of the 2023 ACM International Conference on Management of Data (SIGMOD)
+  image: agarwal-sigmod2023.png
+  paper: agarwal-sigmod2023.pdf
+
 - author: ​Jun Yuan​, Gromit Yeuk-Yin Chan, Kyle Overton, Brian Brian, Kim Rees, Luis Gustavo Nonato, Enrico Bertini, Cláudio T. Silva
   title: "SUBPLEX: A Visual Analytics Approach to Understand Local Model Explanations at the Subpopulation Level"
   venue: IEEE Computer Graphics & Applications 2022
