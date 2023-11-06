@@ -237,12 +237,12 @@ body{
 }
 
 #maincontent #leftcol{
-	width:500px;
+	width:600px;
 }
 #maincontent #rightcol img{
 	display: block;
-	max-width:300px;
-	width: expression(this.width > 300 ? 300: true);
+	max-width:200px;
+	width: expression(this.width > 200 ? 200: true);
 }
 /* Foot */
 #footer {	

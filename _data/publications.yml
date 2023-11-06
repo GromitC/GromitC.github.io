@@ -1,3 +1,34 @@
+
+- author: Guande Wu, Shunan Guo, Jane Hoffswell, Gromit Yeuk-Yin Chan, Ryan Rossi, and Eunyee Koh
+  title: "Data Story Generation via Adaptive Machine-Guided Elicitation of User Feedback."
+  venue: IEEE Transactions on Visualization and Computer Graphics (VIS 2023)
+  image: wu-vis2023.png
+  paper: wu-vis2023.pdf
+
+- author: Pat Sukprasert, Gromit Yeuk-Yin Chan, Ryan Rossi, Fan Du, and Eunyee Koh.
+  title: "Discovery and Matching Numerical Attributes in Data Lakes."
+  venue: IEEE International Conference on Big Data (BigData 2023)
+  paper: sukprasert-bigdata2023.pdf
+  image: sukprasert-bigdata2023.png
+
+- author: Alex Tang, Gromit Yeuk-Yin Chan, Ryan Rossi, Chang Xiao, and Eunyee Koh
+  title: "Tabular Data to Image Generation: Benchmark Data, Approaches, and Evaluation [Vision Paper]"
+  venue: IEEE International Conference on Big Data (BigData 2023)
+  image: tang-bigdata2023.png
+  # paper: chan-chiea2023.pdf
+
+- author: Chieh-Yang Huang, Ting-Yao Hsu, Ryan Rossi, Ani Nenkova, Sungchul Kim, Gromit Yeuk-Yin Chan, Eunyee Koh, C Lee Giles, and Ting-Hao Huang
+  title: "Summaries as Captions: Generating Figure Captions for Scientific Documents with Automated Text Summarization."
+  venue: International Natural Language Generation Conference (INLG 2023) (Best Paper)
+  image: huang-inlg2023.png
+  paper: huang-inlg2023.pdf
+
+- author: Chen Chen, Jane Hoffswell, Shunan Guo, Ryan Rossi, Gromit Yeuk-Yin Chan, Fan Du, Eunyee Koh and Zhicheng Liu.
+  title: "WhatsNext: Guidance-enriched Exploratory Data Analysis with Interactive, Low-Code Notebooks."
+  venue: IEEE Symposium on Visual Languages and Human-Centric Computing (VL/HCC 2023)
+  image: chen-vlhcc2023.png
+  paper: chen-vlhcc2023.pdf
+
 - author: Gromit Yeuk-Yin Chan, Shunan Guo, Caroline Kim, Cole Connelly, Michelle Lee, Andrew Thomson, Eunyee Koh
   title: "Detecting Email Components with Constraints: Expressive and Extensible Models in Answer Set Programming"
   venue: Proceedings of the 2022 Conference on Human Factors in Computing Systems (Late Breaking Work) (CHI LBW)

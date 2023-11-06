@@ -16,7 +16,12 @@ title: Research
 						<div id="pubTitle">{{ pub.title }}</div>
 						{{ pub.venue }}
 					</td>
-			        <td id="rightcol"><img src='assets/images/teasers/{{ pub.image}}'></td>
+					
+			        <td id="rightcol">
+					{% if pub.image %}
+					<img src='assets/images/teasers/{{ pub.image}}'>
+					{% endif %}
+					</td>
 			    </tr>
 			</table>
 			<div id="paperlink">
