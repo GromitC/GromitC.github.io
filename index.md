@@ -17,7 +17,7 @@ title: Home
 <div id="twocolright">
     <div id="subheader">Welcome</div>
     <div id="subsubheader">News:</div>
-    <div><font color="crimson">03/22: I appeared in Adobe Summit to showcase one of my ongoing research projects. Check it out <a target="_blank" href="https://business.adobe.com/summit/2022/sessions/project-style-blast-mb9-6.html">here</a>.</font></div>
+    <div><font color="crimson">My intern <a target="_blank" href="https://tongyuzhou.com/#/">Tongyu Zhou</a>'s work on message based infographics authoring has been accepted at CHI 2024! Stay posted for more details.</font></div>
    <div id="subsubheader">About Me:</div>
     My name is Gromit Yeuk-Yin CHAN  (陳若然), a Research Scientist in Adobe Research. 
     <br>
@@ -29,8 +29,8 @@ title: Home
     <br>
     Here are some of the projects that keep me busy:
     <ul style="padding-left: 10px;">
-    <li><i>Optimizing Query Performance on Machine Learning Pipelines</i>: Developing frameworks to reduce complex queries needed for ML training/inference. </li>
-    <li><i>Creative Content Synthesis and Sharing</i>: Developing robust algorithms to share creative contents (e.g. posters) in different formats (e.g. PNG, PSD, or HTML). </li>
+    <li><i><strong>Generative AI Applications On Human Computer Interactions</strong></i> <br> Large Language Model (LLM) Based Graphic Content Generation and Creativity Support Tools. <br></li>
+    <li><i><strong>Generative AI Applications On Data Management</strong></i>: <br> Industry Scaled Text-to-SQL Pipelines, Query Centric Machine Learning.</li>
     </ul>
     I am constantly looking for interns and collaborators to work on research projects in DB/VIS/HCI. Please send me an email to reach out and learn more.
     <!-- I was a member in <a target="_blank" href="http://vgc.poly.edu/wiki/vgc/index.php/Main_Page">Visualization and Data Analytics (ViDA) lab</a> during my PhD and <a target="_blank" href="http://vis.cse.ust.hk/vislab_homepage/people.html">HKUST VisLab</a> during my undergraduate study. -->
