@@ -1,4 +1,9 @@
 
+- author: Tongyu Zhou, Jeff Huang, Gromit Yeuk-Yin Chan
+  title: "Epigraphics: Message-Driven Infographics Authoring."
+  venue: ACM Conference on Human Factors in Computing Systems (CHI 2024)
+  image: zhou-chi2024.gif
+
 - author: Guande Wu, Shunan Guo, Jane Hoffswell, Gromit Yeuk-Yin Chan, Ryan Rossi, and Eunyee Koh
   title: "Data Story Generation via Adaptive Machine-Guided Elicitation of User Feedback."
   venue: IEEE Transactions on Visualization and Computer Graphics (VIS 2023)
@@ -31,13 +36,13 @@
 
 - author: Gromit Yeuk-Yin Chan, Shunan Guo, Caroline Kim, Cole Connelly, Michelle Lee, Andrew Thomson, Eunyee Koh
   title: "Detecting Email Components with Constraints: Expressive and Extensible Models in Answer Set Programming"
-  venue: Proceedings of the 2022 Conference on Human Factors in Computing Systems (Late Breaking Work) (CHI LBW)
+  venue: ACM Conference on Human Factors in Computing Systems (Late Breaking Work) (CHI LBW 2024)
   image: chan-chiea2023.png
   paper: chan-chiea2023.pdf
 
 - author: Shubham Agarwal, Gromit Yeuk-Yin Chan, Shaddy Garg, Tong Yu, Subrata Mitra
   title: "Fast Natural Language Based Data Exploration with Samples"
-  venue: Proceedings of the 2023 ACM International Conference on Management of Data (SIGMOD)
+  venue: ACM International Conference on Management of Data (SIGMOD 2023)
   image: agarwal-sigmod2023.png
   paper: agarwal-sigmod2023.pdf
 
@@ -86,7 +91,7 @@
 
 - author: Yeuk-Yin Chan, Fernando Chirigati, Harish Doraiswamy, Cláudio T. Silva, and Juliana Freire
   title: Querying and Exploring Polygamous Relationships in Urban Spatio-Temporal Data Sets.
-  venue: Proceedings of the 2017 ACM International Conference on Management of Data (SIGMOD)
+  venue: ACM International Conference on Management of Data (SIGMOD 2017)
   image: chan-sigmod2017.png
   link: http://dl.acm.org/citation.cfm?id=3058741
   paper: chan-sigmod2017.pdf
