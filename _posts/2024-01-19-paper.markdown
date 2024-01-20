@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Generative Agents: Interactive Simulacra of Human Behavior"
+categories: ACupOfRead
+---
+
+[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/pdf/2304.03442.pdf), Park et. al., UIST 2023
+
+I have known about this work for a long time but have never found the time to thoroughly read the paper due to various reasons. Therefore, I decided to use this blog as a means to force myself to complete the reading.
+
+The setup of the paper is simple: it attempts to mimic a simulated human world (similar to the video game "The Sims") using Large Language Models (LLM). It records the mental model and behavior (such as mental planning, memory, and conversations) as texts after a period of time, and then summarizes the behavior into several social behavioral observations.
+
+What really stands out to me in this paper is how it evaluates the simulations. The evaluation goal is straightforward: do the LLM responses make sense? Verifying them enables discussions of the agent's behavior afterward. To begin with, the authors pose five types of verification questions to (1) LLMs based on ablations on different parts of recorded text, and (2) human participants with the conversations and actions provided. Then, the authors use crowdsourcing to rank the responses and verify the usefulness of their modules in the simulations.
+
+This evaluation method strikes a good balance between the capabilities of LLMs and crowdsourcing. LLMs can synthesize long texts into short summaries, while crowdsourcing can reliably quantify the summaries when the given inputs are simple. I foresee that this approach will become the standard for evaluating HCI+AI for a long time.
+
