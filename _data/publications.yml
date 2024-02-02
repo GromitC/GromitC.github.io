@@ -3,6 +3,7 @@
   title: "Epigraphics: Message-Driven Infographics Authoring."
   venue: ACM Conference on Human Factors in Computing Systems (CHI 2024)
   image: zhou-chi2024.gif
+  paper: zhou-chi2024.pdf
 
 - author: Guande Wu, Shunan Guo, Jane Hoffswell, Gromit Yeuk-Yin Chan, Ryan Rossi, and Eunyee Koh
   title: "Data Story Generation via Adaptive Machine-Guided Elicitation of User Feedback."
