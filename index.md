@@ -17,7 +17,7 @@ title: Home
 <div id="twocolright">
     <div id="subheader">Welcome</div>
     <div id="subsubheader">News:</div>
-    <div><font color="crimson">My intern <a target="_blank" href="https://tongyuzhou.com/#/">Tongyu Zhou</a>'s work on message based infographics authoring has been accepted at CHI 2024! Stay posted for more details.</font></div>
+    <div><font color="crimson">My intern <a target="_blank" href="https://tongyuzhou.com/#/">Tongyu Zhou</a>'s work on message based infographics authoring was selected to be presented as <a target="_blank" href="https://www.youtube.com/watch?v=XSMO9-7pcq8">#ProjectInfographIt</a> at Adobe SUMMIT Sneaks 2024! It has also been accepted at CHI 2024.</font></div>
    <div id="subsubheader">About Me:</div>
     My name is Gromit Yeuk-Yin CHAN  (陳若然), a Research Scientist in Adobe Research. 
     <br>
