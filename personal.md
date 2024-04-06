@@ -5,9 +5,9 @@ title: Personal
 <div id="onecol">
 	<div id="subheader">Some Videos</div>
 	<h5> I was selected to present my work on email editing in Adobe Journey Optimizer with Kristen Bell at Adobe Summit Sneaks 2022. Part of the work was also presented at CHI LBW in the same year.</h5>
-	<iframe width="700" height="394" src="https://www.youtube.com/embed/o8azsdA0ozU?si=gE3ejkYbcmcmMW9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	<iframe width="750" height="422" src="https://www.youtube.com/embed/o8azsdA0ozU?si=gE3ejkYbcmcmMW9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 	<h5> Two years later, my work on infographics editing with my intern Tongyu Zhou was selected to be presented at Summit Sneaks again. It was the only intern work selected to be presented, and Tongyu did an amazing job showing Shaquille O'Neal how cool infographics could be! The work was also accepted as a regular CHI paper in the same year.</h5>
-	<iframe width="700" height="394" src="https://www.youtube.com/embed/XSMO9-7pcq8?si=JHEnwRs5MI9vB6NG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<iframe width="750" height="422" src="https://www.youtube.com/embed/XSMO9-7pcq8?si=JHEnwRs5MI9vB6NG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 <div id="onecol">
 	<div id="subheader">Some Traveling Photos:</div>
