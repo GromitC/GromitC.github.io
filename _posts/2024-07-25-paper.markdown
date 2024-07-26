@@ -31,7 +31,7 @@ Basically, they collect 7000 prompts under a secret taxonomy on different capabi
 
 D. **Safety** \
 A very interesting aspect of the report is the coverage of safety issues that a model could produce.
-1. **Standard Risk Categories**
+1. **Standard Risk Categories** \
 The category is inspired by ML Commons taxonomy of hazards. Under each category, human written prompts are collected and the model undergoes a pre-training and post-training pipeline to finetune the behavior towards those harmful prompts. The evaluation metrics are the Violation Rate (when the model produces a response that violates a safety policy) and False Refusal Rate (when the model incorrectly refuses to respond to a harmless prompt).
 2. **Cybersecurity and Chemical/Biological Weapons Safety** \
 The most interesting evaluation IMO is to see if people could use Llama3.1 to conduct cyber attacks (e.g. phishing, hacking...) and create chemical and biological weapons. To do so, they recruit general users and experts on these aspects to see if two groups of participants could create the "weapons" similarly.
