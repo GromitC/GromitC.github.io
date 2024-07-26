@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "The Llama 3 Herd of Models Part 3: Evaluation"
+categories: ACupOfRead
+---
+
+
+[The Llama 3 Herd of Models](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/), Llama Team, AI@Meta, 2024
+
+Just like ML pipelines, evaluation plays a big role. Especially for a gigantic LLM like Llama3.1, testing its capability in as many angles as you call is crucial (for compliance). I'll try to go briefly on each of the experiments.
+
+A. Evaluations on Pre-trained model
+1. **Standard Benchmarks** \
+The standard ones are the tasks that could be quantitatively evaluated on the generated text: (1) commonsense reasoning; (2) knowledge; (3) reading comprehension; (4) math, reasoning, and problem solving; (5) long
+context; (6) code; (7) adversarial evaluations; and (8) aggregate evaluations.
+2. **Robustness** \
+Another standard evaluation is to test the robustness of varying prompts (e.g. contexts in different order, answer, and label formats). The test is to conduct a Multiple Choice question answering task that uses different labels (e.g. ABCD or 1234), different orders, and different task descriptions.
+3. **Adversarial Benchmarks** \ 
+The standard ways are question answering (SQuAD), mathematical reasoning (GSM-Plus), and paraphrase detection (PAWS).
+4. **Contamination Analysis** \
+The purpose is to test whether the benchmark datasets are leaked in the model during the training process. The way is to see whether there exist examples in the evaluation dataset that are part of an 8-gram occurring at least once in the pre-training corpus and remove those examples to see what the performance difference is.
+
+B. Evaluations on Post-trained model
+1. **Standard Benchmarks** \
+The standard ones contain metrics on specific capabilities: General (MMLU, MMLU-Pro, IFEval); Math and reasoning (GSM8K, MATH, GPQA, ARC-Challenge); Code (HumanEval, MBPP, HumanEval+, MBPP EvalPlus (base), MultiPL-E); Multilinguality (MGSM, Multilingual MMLU (internal benchmark)); Tool-use (Nexus, API-Bank, API-Bench, BFCL); Long context (ZeroSCROLLS , Needle-in-a-Haystack, InfiniteBench).
+2. **Proficiency Exam** \
+An interesting way to test the general knowledge capability is to ask the model to perform human exams, like (SAT, GRE, LSAT, AP, GMAT). 
+
+C. **Human Evaluations** \
+Basically, they collect 7000 prompts under a secret taxonomy on different capabilities and ask human annotators to give a Likert scale on the outputs from both Llama3.1 and other models.
+
+D. **Safety** \
+A very interesting aspect of the report is the coverage of safety issues that a model could produce.
+1. **Standard Risk Categories**
+The category is inspired by ML Commons taxonomy of hazards. Under each category, human written prompts are collected and the model undergoes a pre-training and post-training pipeline to finetune the behavior towards those harmful prompts. The evaluation metrics are the Violation Rate (when the model produces a response that violates a safety policy) and False Refusal Rate (when the model incorrectly refuses to respond to a harmless prompt).
+2. **Cybersecurity and Chemical/Biological Weapons Safety** \
+The most interesting evaluation IMO is to see if people could use Llama3.1 to conduct cyber attacks (e.g. phishing, hacking...) and create chemical and biological weapons. To do so, they recruit general users and experts on these aspects to see if two groups of participants could create the "weapons" similarly.
+3. **Red Teaming** \
+Teams of "ethical hackers" are recruited to identify issues with different capabilities.
+4. **System Level Safety** \
+A classifier (Llama Guard 3) that is trained on a dataset under AI Safety taxonomy is released to identify harmful prompts for a prompt rejection framework.
