@@ -46,7 +46,13 @@
   image: chan-chiea2023.png
   paper: chan-chiea2023.pdf
 
-- author: Shubham Agarwal, Gromit Yeuk-Yin Chan, Shaddy Garg, Tong Yu, Subrata Mitra
+- author: Ryan Aponte, Ryan A. Rossi, Shunan Guo, Jane Hoffswell, Nedim Lipka, Chang Xiao, Gromit Yeuk-Yin Chan, Eunyee Koh, Nesreen K. Ahmed
+  title: "A ML-based Approach for HTML-based Style Recommendation"
+  venue: Companion Proceedings of the ACM Web Conference 2023
+  image: aponte-www2023.png
+  paper: aponte-www2023.pdf
+
+  - author: Shubham Agarwal, Gromit Yeuk-Yin Chan, Shaddy Garg, Tong Yu, Subrata Mitra
   title: "Fast Natural Language Based Data Exploration with Samples"
   venue: ACM International Conference on Management of Data (SIGMOD 2023)
   image: agarwal-sigmod2023.png
