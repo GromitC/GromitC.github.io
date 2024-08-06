@@ -52,7 +52,7 @@
   image: aponte-www2023.png
   paper: aponte-www2023.pdf
 
-  - author: Shubham Agarwal, Gromit Yeuk-Yin Chan, Shaddy Garg, Tong Yu, Subrata Mitra
+- author: Shubham Agarwal, Gromit Yeuk-Yin Chan, Shaddy Garg, Tong Yu, Subrata Mitra
   title: "Fast Natural Language Based Data Exploration with Samples"
   venue: ACM International Conference on Management of Data (SIGMOD 2023)
   image: agarwal-sigmod2023.png
