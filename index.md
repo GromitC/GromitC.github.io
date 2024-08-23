@@ -12,7 +12,7 @@ title: Home
     <!-- <div id="contact">Phone: +44 (0)20 7955 1111</div> -->
     <div id="contact"><i class="fa fa-envelope"></i>: <span style="font-size:12px;">gromit.y.chan(at)gmail(dot)com</span></div>
     <div id="contact"><i class="fa fa-twitter"></i>: <a href="https://twitter.com/GromitC">GromitC</a> <i class="fa fa-graduation-cap"></i>: <a href="https://scholar.google.com/citations?user=t7tR7O0AAAAJ">Google Scholar</a></div>
-    <div id="portrait" style="padding-top: 10px;"><iframe height='250' width='240' frameborder='0' allowtransparency='true' scrolling='yes' src='https://www.strava.com/athletes/63539277/latest-rides/81f565dfb3a712eaf25c3e507e6bed5c2ac496f5'></iframe></div>
+    
 </div>
 <div id="twocolright">
     <div id="subheader">Welcome</div>
