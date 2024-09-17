@@ -1,3 +1,9 @@
+- author: Tongyu Zhou, Gromit Yeuk-Yin Chan, Shunan Guo, Jane Hoffswell, Chang Xiao, Victor Soares Bursztyn, Eunyee Koh
+  title: "Data Pictorial: Deconstructing Raster Images for Data-Aware Animated Vector Posters."
+  venue: ACM Symposium on User Interface Software and Technology (UIST 2024) (Poster)
+  image: zhou-uist2024.gif
+  paper: zhou-uist2024.pdf
+
 - author: Parikshit Solunke, Vitoria Guardieiro, João Rulff, Peter Xenopoulos, Gromit Yeuk-Yin Chan, Brian Barr, Luis Gustavo Nonato, and Claudio Silva
   title: "MOUNTAINEER: Topology-Driven Visual Analytics for Comparing Local Explanations."
   venue: IEEE Transactions on Visualization and Computer Graphics
