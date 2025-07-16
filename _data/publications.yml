@@ -1,6 +1,6 @@
 - author: Gromit Yeuk-Yin Chan, Luis Gustavo Nonato, Themis Palpanas, Cláudio T. Silva, and Juliana Freire
   title: "TiVy: Time Series Visual Summary for Scalable Visualization"
-  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  venue: IEEE Transactions on Visualization and Computer Graphics (VIS 2025)
   image: chan-vis2025.png
   paper: chan-vis2025.pdf
 
@@ -8,16 +8,19 @@
   title: "Satori: Towards Proactive AR Assistant with Belief-Desire-Intention User Modeling"
   venue: ACM Conference on Human Factors in Computing Systems (CHI 2025)
   image: li-chi2025.png
+  paper: li-chi2025.pdf
 
 - author: Ishika Joshi, Simra Shahid, Shreeya Venneti, Manushree Vasu, Yantao Zheng, Yunyao Li, Balaji Krishnamurthy, and Gromit Yeuk-Yin Chan
   title: "CoPrompter: User-Centric Evaluation of LLM Instruction Alignment for Improved Prompt Engineering"
   venue: International Conference on Intelligent User Interfaces (IUI 2025)
   image: joshi-iui2025.png
+  paper: joshi-iui2025.pdf
 
 - author: Haneen Mohammed, Alexander Yao, Charlie Summers, Hongbin Zhong, Gromit Yeuk-Yin Chan, Subrata Mitra, Lampros Flokas, and Eugene Wu
   title: "FaDE: More Than a Million What-ifs Per Second"
   venue: Proceedings of the VLDB Endowment (VLDB 2025)
   image: mohammed-vldb2025.png
+  paper: mohammed-vldb2025.pdf
 
 - author: Tongyu Zhou, Gromit Yeuk-Yin Chan, Shunan Guo, Jane Hoffswell, Chang Xiao, Victor Soares Bursztyn, Eunyee Koh
   title: "Data Pictorial: Deconstructing Raster Images for Data-Aware Animated Vector Posters."
