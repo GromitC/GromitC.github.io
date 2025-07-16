@@ -356,3 +356,52 @@ li{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* --- Custom left-alignment for publication tabs and content --- */
+#pub-tabs {
+  width: 92%;
+  margin-bottom: 30px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pub-tabs table {
+  width: 100%;
+}
+.tab-buttons {
+  margin-bottom: 10px;
+  text-align: left;
+}
+.tab-btn {
+  background: #fff;
+  border: 0px solid #ccc;
+  border-bottom: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  font-family: Avenir, Helvetica;
+  outline: none;
+  margin-right: 2px;
+  border-radius: 5px 5px 0 0;
+  text-align: left;
+}
+.tab-btn.active {
+  background: #fff;
+  border-bottom: 2px solid #005b7f;
+  color: #005b7f;
+  font-weight: bold;
+}
+.tab-content {
+  background: #fff;
+  /* border: 1px solid #ccc; */
+  border: none;
+  padding: 15px 0 0 0;
+  border-radius: 0 5px 5px 5px;
+  text-align: left;
+}
+#pub-tabs table, #pub-tabs td, #pub-tabs #pubAuthor, #pub-tabs #pubTitle, #pub-tabs #paperlink {
+  text-align: left !important;
+}
+#pub-tabs table, #pub-tabs td, #pub-tabs tr {
+  border: none !important;
+}

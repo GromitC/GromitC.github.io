@@ -3,24 +3,28 @@
   venue: IEEE Transactions on Visualization and Computer Graphics (VIS 2025)
   image: chan-vis2025.png
   paper: chan-vis2025.pdf
+  selected: true
 
 - author: Chenyi Li, Guande Wu, Gromit Yeuk-Yin Chan, Dishita G Turakhia, Sonia Castelo Quispe, Dong Li, Leslie Welch, Claudio Silva, and Jing Qian
   title: "Satori: Towards Proactive AR Assistant with Belief-Desire-Intention User Modeling"
   venue: ACM Conference on Human Factors in Computing Systems (CHI 2025)
   image: li-chi2025.png
   paper: li-chi2025.pdf
+  selected: true
 
 - author: Ishika Joshi, Simra Shahid, Shreeya Venneti, Manushree Vasu, Yantao Zheng, Yunyao Li, Balaji Krishnamurthy, and Gromit Yeuk-Yin Chan
   title: "CoPrompter: User-Centric Evaluation of LLM Instruction Alignment for Improved Prompt Engineering"
   venue: International Conference on Intelligent User Interfaces (IUI 2025)
   image: joshi-iui2025.png
   paper: joshi-iui2025.pdf
+  selected: true
 
 - author: Haneen Mohammed, Alexander Yao, Charlie Summers, Hongbin Zhong, Gromit Yeuk-Yin Chan, Subrata Mitra, Lampros Flokas, and Eugene Wu
   title: "FaDE: More Than a Million What-ifs Per Second"
   venue: Proceedings of the VLDB Endowment (VLDB 2025)
   image: mohammed-vldb2025.png
   paper: mohammed-vldb2025.pdf
+  selected: true
 
 - author: Tongyu Zhou, Gromit Yeuk-Yin Chan, Shunan Guo, Jane Hoffswell, Chang Xiao, Victor Soares Bursztyn, Eunyee Koh
   title: "Data Pictorial: Deconstructing Raster Images for Data-Aware Animated Vector Posters."
@@ -33,18 +37,21 @@
   venue: IEEE Transactions on Visualization and Computer Graphics
   image: solunke-tvcg.png
   paper: solunke-tvcg.pdf
+  selected: true
 
 - author: Tongyu Zhou, Jeff Huang, Gromit Yeuk-Yin Chan
   title: "Epigraphics: Message-Driven Infographics Authoring."
   venue: ACM Conference on Human Factors in Computing Systems (CHI 2024) (Honorable Mention Award)
   image: zhou-chi2024.gif
   paper: zhou-chi2024.pdf
+  selected: true
 
 - author: Guande Wu, Shunan Guo, Jane Hoffswell, Gromit Yeuk-Yin Chan, Ryan Rossi, and Eunyee Koh
   title: "Data Story Generation via Adaptive Machine-Guided Elicitation of User Feedback."
   venue: IEEE Transactions on Visualization and Computer Graphics (VIS 2023)
   image: wu-vis2023.png
   paper: wu-vis2023.pdf
+  selected: true
 
 - author: Pat Sukprasert, Gromit Yeuk-Yin Chan, Ryan Rossi, Fan Du, and Eunyee Koh.
   title: "Discovery and Matching Numerical Attributes in Data Lakes."
@@ -105,6 +112,7 @@
   venue: International Conference on Knowledge Discovery & Data Mining (KDD 2021)
   image: chan-kdd2021.png
   paper: chan-kdd2021.pdf
+  selected: true
 
 - author: Gromit Yeuk-Yin Chan, Fan Du, Ryan Rossi, Anup Rao, Eunyee Koh, Cláudio T. Silva and Juliana Freire
   title: Real-Time Clustering for Large Sparse Online Visitor Data
@@ -113,6 +121,7 @@
   paper: chan-www2020.pdf
   link: "https://dl.acm.org/doi/abs/10.1145/3366423.3380183"
   slide: WWW2020.pdf
+  selected: true
 
 - author: Gromit Yeuk-Yin Chan, Luis Gustavo Nonato, Alice Chu, Preeti Raghavan, Viswanath Aluru and Cláudio T. Silva
   title: "Motion Browser: Visualizing and Understanding Complex Upper Limb Movement Under Obstetrical Brachial Plexus Injuries"
@@ -121,6 +130,7 @@
   paper: chan-vast2019.pdf
   video: video_vast2019.mp4
   talk: talk_vast19.mp4
+  selected: true
 
 - author: Gromit Yeuk-Yin Chan, Panpan Xu, Zeng Dai and Liu Ren
   title: "ViBr: Visualizing Bipartite Relations at Scale with the Minimum Description Length Principle"
@@ -130,6 +140,7 @@
   appendix: chan-vast2018-appendix.pdf
   video: video_vast18.mp4
   talk: talk_vast18.mp4
+  selected: true
 
 - author: Yeuk-Yin Chan, Fernando Chirigati, Harish Doraiswamy, Cláudio T. Silva, and Juliana Freire
   title: Querying and Exploring Polygamous Relationships in Urban Spatio-Temporal Data Sets.
@@ -144,6 +155,7 @@
   venue: IEEE Transactions on Visualization and Computer Graphics (VIS 2016)
   link: "http://ieeexplore.ieee.org/abstract/document/7534855/"
   paper: li-vast2016.pdf
+  selected: true
 
 - author: Yeuk Yin Chan, and Huamin Qu
   title: "FinaVistory: Using Narrative Visualization to explain social and Economic relationships in financial news."
