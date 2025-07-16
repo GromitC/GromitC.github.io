@@ -1,3 +1,9 @@
+- author: Gromit Yeuk-Yin Chan, Luis Gustavo Nonato, Themis Palpanas, Cláudio T. Silva, and Juliana Freire
+  title: "TiVy: Time Series Visual Summary for Scalable Visualization"
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  image: chan-vis2025.png
+  paper: chan-vis2025.pdf
+
 - author: Chenyi Li, Guande Wu, Gromit Yeuk-Yin Chan, Dishita G Turakhia, Sonia Castelo Quispe, Dong Li, Leslie Welch, Claudio Silva, and Jing Qian
   title: "Satori: Towards Proactive AR Assistant with Belief-Desire-Intention User Modeling"
   venue: ACM Conference on Human Factors in Computing Systems (CHI 2025)
