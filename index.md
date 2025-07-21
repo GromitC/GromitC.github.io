@@ -12,12 +12,11 @@ title: Home
     <!-- <div id="contact">Phone: +44 (0)20 7955 1111</div> -->
     <div id="contact"><i class="fa fa-envelope"></i>: <span style="font-size:12px;">gromit.y.chan(at)gmail(dot)com</span></div>
     <div id="contact"><i class="fa fa-twitter"></i>: <a href="https://twitter.com/GromitC">GromitC</a> <i class="fa fa-graduation-cap"></i>: <a href="https://scholar.google.com/citations?user=t7tR7O0AAAAJ">Google Scholar</a></div>
-    
+    <div id='subsubheader'></div>
+    <div ><font color="crimson" style="font-size: 12px;">News (Jun 2025): A very interesting work (IMO) on time series visual summarization has been accepted to IEEE VIS. And my intern <a href="https://donghoon.io/">Donghoon Shin</a>'s work on AI agents for real time design collaboration has been conditionally accepted to UIST. Stay tuned for more details. </font></div>
 </div>
 <div id="twocolright">
     <div id="subheader">Welcome</div>
-    <div id="subsubheader">News:</div>
-    <div><font color="crimson">Adobe Research has released <a target="_blank" href="https://research.adobe.com/news/adobe-research-interns-work-featured-on-the-summit-stage/"> an article </a> to explain what happened behind the scene throughout my mentee's internship experience that lead to the award winning ACM CHI Conference paper and Adobe Summit Sneaks. </font></div>
    <div id="subsubheader">About Me:</div>
     My name is Gromit Yeuk-Yin CHAN  (陳若然), a Research Scientist in Adobe Research. 
     <br>

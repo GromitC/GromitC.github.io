@@ -173,14 +173,19 @@ body{
 #maincontent #twocolleft{
 	float: left;
 	text-align: left;
-	margin: 25px 25px 25px 25px;
+	margin: 25px 10px 25px 25px;
+	width: 30%;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
 }
 
 #maincontent #twocolright{
-	width: 59%;
+	width: 60%;
 	float: right;
 	text-align: left;
-	margin: 25px 25px 25px 25px;
+	margin: 25px 25px 25px 10px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
 }
 
 #maincontent #contact{
