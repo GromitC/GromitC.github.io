@@ -1,3 +1,10 @@
+- author: Donghoon Shin, Daniel Lee, Gary Hsieh, and Gromit Yeuk-Yin Chan
+  title: "PosterMate: Audience-driven Collaborative Persona Agents for Poster Design"
+  venue: ACM Symposium on User Interface Software and Technology (UIST 2025)
+  image: shin-uist2025.png
+  paper: shin-uist2025.pdf
+  selected: true
+
 - author: Gromit Yeuk-Yin Chan, Luis Gustavo Nonato, Themis Palpanas, Cláudio T. Silva, and Juliana Freire
   title: "TiVy: Time Series Visual Summary for Scalable Visualization"
   venue: IEEE Transactions on Visualization and Computer Graphics (VIS 2025)
