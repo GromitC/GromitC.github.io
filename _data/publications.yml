@@ -2,6 +2,7 @@
   title: "ChArtist: Generating Pictorial Charts with Unified Spatial and Subject Control"
   venue: Computer Vision and Pattern Recognition Conference (CVPR 2026)
   image: xiao-cvpr2026.png
+  paper: xiao-cvpr2026.pdf
   selected: true
 
 - author: Donghoon Shin, Daniel Lee, Gary Hsieh, and Gromit Yeuk-Yin Chan
