@@ -22,16 +22,16 @@ title: Home
     <br>
     I received my PhD in Computer Science from New York University in 2021, advised by <a target="_blank" href="https://ctsilva.github.io/">prof. Claudio T. Silva</a> and <a target="_blank" href="https://vgc.poly.edu/~juliana/">prof. Juliana Freire</a>.
     Before that, I obtained my double degree in Computer Engineering and Business Management from HKUST in 2016. 
-    My research focus has been mainly in the area of visualization and data management, including large scale data visualization, Machine Learning algorithms with data sketching and distributed computing, and visual analytics systems. 
-    As a research scientist, I develop and transfer database, visualization, and HCI technologies to Adobe Experience Cloud.
+    My research focus has been mainly in the area of Visualization, Data Management and Human Computer Interaction, including large scale data visualization, Machine Learning algorithms and Generative AI models, and creativity support tools. 
+    As a research scientist, I develop and transfer visualization, database, and HCI technologies to Adobe Experience Cloud.
     <br>
     <br>
     Here are some of the projects that keep me busy:
     <ul style="padding-left: 10px;">
-    <li><i><strong>Generative AI Applications On Human Computer Interactions</strong></i> <br> Large Language Model (LLM) Based Graphic Content Generation and Creativity Support Tools. <br></li>
+    <li><i><strong>Generative AI Applications On Visualization/ Human Computer Interaction</strong></i> <br> AI Powered Graphic Content Generation and Creativity Support Tools. <br></li>
     <li><i><strong>Generative AI Applications On Data Management</strong></i>: <br> Industry Scaled Text-to-SQL Pipelines, Query Centric Machine Learning.</li>
     </ul>
-    I am constantly looking for interns and collaborators to work on research projects in DB/VIS/HCI. Please send me an email to reach out and learn more.
+    I am constantly looking for interns and collaborators to work on research projects in VIS/DB/HCI. Please send me an email to reach out and learn more.
     <!-- I was a member in <a target="_blank" href="http://vgc.poly.edu/wiki/vgc/index.php/Main_Page">Visualization and Data Analytics (ViDA) lab</a> during my PhD and <a target="_blank" href="http://vis.cse.ust.hk/vislab_homepage/people.html">HKUST VisLab</a> during my undergraduate study. -->
     <!-- I am broadly interested in the machine learning aspect of interactive visualization. Recently I have been working on large scale data summarization and interactive systems using sketching algorithms. My PhD advisors are <a target="_blank" href="https://vgc.poly.edu/~csilva/">prof. Claudio T. Silva</a> and <a target="_blank" href="https://vgc.poly.edu/~juliana/">prof. Juliana Freire</a>, and I am fortunate to spend a decent amount of time working with <a target="_blank" href="http://www.icmc.usp.br/~gnonato/">prof. Gustavo Nonato</a>, <a target="_blank" href="http://www.harishd.com/home/">Dr. Harish Doraiswamy</a>, <a target="_blank" href="http://lliquid.github.io/homepage/">Dr. Panpan Xu</a>, <a target="_blank" href="http://helios.mi.parisdescartes.fr/~themisp/">prof. Themis Palpanas</a>, <a target="_blank" href="http://frankdu.org/">Dr. Fan Du<a/> and <a target="_blank" href="https://sites.google.com/view/tungtmai/">Dr. Tung Mai<a/>.
     <br>
