@@ -153,6 +153,8 @@ body{
 	width: 835px;
 	letter-spacing: .7px;
 	font: 1.3em Avenir, Helvetica;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 
 #maincontent a{
