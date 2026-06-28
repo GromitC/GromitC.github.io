@@ -18,7 +18,7 @@ title: Home
 <div id="twocolright">
     <div id="subheader">Welcome</div>
    <div id="subsubheader">About Me:</div>
-    My name is Gromit Yeuk-Yin CHAN  (陳若然), a Research Scientist in Adobe Research. 
+    My name is Gromit Yeuk-Yin CHAN  (陳若然), a Senior Research Scientist in Adobe Research. 
     <br>
     I received my PhD in Computer Science from New York University in 2021, advised by <a target="_blank" href="https://ctsilva.github.io/">prof. Claudio T. Silva</a> and <a target="_blank" href="https://vgc.poly.edu/~juliana/">prof. Juliana Freire</a>.
     Before that, I obtained my double degree in Computer Engineering and Business Management from HKUST in 2016. 
