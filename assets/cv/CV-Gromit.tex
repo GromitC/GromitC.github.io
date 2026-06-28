@@ -19,14 +19,31 @@
 \newcounter{conffirst}
 \regtotcounter{conffirst}
 \newcommand{\confirst}{\stepcounter{conffirst}}
+\newcounter{confbest}
+\regtotcounter{confbest}
+\newcommand{\confbest}{\stepcounter{confbest}}
+\newcounter{workshoppremier}
+\regtotcounter{workshoppremier}
+\newcommand{\workshopstar}{\stepcounter{workshoppremier}\footnotesize $\bigstar$ \small}
+\newcounter{workshopfirst}
+\regtotcounter{workshopfirst}
+\newcommand{\workshopfirst}{\stepcounter{workshopfirst}}
+\newcounter{workshopbest}
+\regtotcounter{workshopbest}
+\newcommand{\workshopbest}{\stepcounter{workshopbest}}
 \newcounter{confstudent}
 \regtotcounter{confstudent}
+\newcounter{workshopstudent}
+\regtotcounter{workshopstudent}
 \newif\ifcountingstudents
 \countingstudentsfalse
+\newif\ifcountingworkshopstudents
+\countingworkshopstudentsfalse
 \AtBeginDocument{%
   \let\origcircledS\circledS
   \renewcommand{\circledS}{%
     \ifcountingstudents\addtocounter{confstudent}{1}\fi%
+    \ifcountingworkshopstudents\addtocounter{workshopstudent}{1}\fi%
     \origcircledS%
   }%
 }

@@ -2,7 +2,7 @@
     \colorbox{gainsboro}{PUBLICATIONS}  {\small \normalfont ( \footnotesize $\bigstar$ \small indicates \myhref{http://portal.core.edu.au/conf-ranks/}{premier venues} ) ( $\circledS$ indicates students I directly supervised )}
 }
 
-\textbf{Conferences and Journals (\total{confpremier} $\bigstar$, \total{confstudent} $\circledS$, \total{conffirst} first-authored):}
+\textbf{Conferences and Journals (\total{confpremier} $\bigstar$, \total{confstudent} $\circledS$, \total{conffirst} first-authored, \total{confbest} awarded):}
 \vspace{-3mm}
 \countingstudentstrue
 \begin{etaremune}[leftmargin=7mm, start=\numexpr\etaremunecnt{i}+\etaremunecnt{ii}\relax]
@@ -16,11 +16,11 @@
     \item \bibentry{mohammed2025fade} \confstar
     \item \bibentry{zhang2025convomap}
     \item \bibentry{solunke2024mountaineer} \confstar
-    \item \bibentry{zhou2024epigraphics} \confstar (\textbf{Best Paper Honorable Mention})
+    \item \bibentry{zhou2024epigraphics} \confstar\confbest (\textbf{Best Paper Honorable Mention})
     \item \bibentry{wu2023datastory} (Proceedings of VIS 2023) \confstar
     \item \bibentry{sukprasert2023discovery}
     \item \bibentry{chen2023whatsnext}
-    \item \bibentry{huang2023summaries} (\textbf{Best Paper})
+    \item \bibentry{huang2023summaries}\confbest (\textbf{Best Paper})
     \item \bibentry{jun2022subplex}
     \item \bibentry{chan2021ae} \confstar\confirst
     \item \bibentry{chan2020real} (Accepted for \textbf{Oral Presentation}) \confstar\confirst
@@ -31,24 +31,26 @@
 \end{etaremune}
 \countingstudentsfalse
 
-\textbf{Workshops, Demos and Posters:}
+\textbf{Workshops, Demos and Posters (\total{workshoppremier} $\bigstar$, \total{workshopstudent} $\circledS$, \total{workshopfirst} first-authored, \total{workshopbest} awarded):}
 \vspace{-3mm}
+\countingworkshopstudentstrue
 \begin{etaremune}[leftmargin=7mm]
-    \item \bibentry{shi2025comprehensive} \footnotesize $\bigstar$ \small
-    \item \bibentry{zhou2024datapictorial} \footnotesize $\bigstar$ \small
+    \item \bibentry{shi2025comprehensive} \workshopstar
+    \item \bibentry{zhou2024datapictorial} \workshopstar
     \item \bibentry{tang2023tabular}
     \item \bibentry{chan2023detecting}
-    \footnotesize $\bigstar$ \small
+    \workshopstar\workshopfirst
     \item \bibentry{agarwal2023fast}
-    \footnotesize $\bigstar$ \small
-    \item \bibentry{aponte2023ml} 
-    \footnotesize $\bigstar$ \small
+    \workshopstar
+    \item \bibentry{aponte2023ml}
+    \workshopstar
     \item \bibentry{peter2022gale}
     (\textbf{Spotlight})
-    \footnotesize $\bigstar$ \small
+    \workshopstar
     \item \bibentry{chan2017querying}
     (\textbf{Best Demo Honorable Mention})
-    \footnotesize $\bigstar$ \small
+    \workshopstar\workshopfirst\workshopbest
    \item \bibentry{zheng2016you}
-   \item \bibentry{puri2015parkvis} 
+   \item \bibentry{puri2015parkvis}
 \end{etaremune}
+\countingworkshopstudentsfalse
