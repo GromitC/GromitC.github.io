@@ -2,6 +2,7 @@
   title: "UXCascade: Scalable Usability Testing with Simulated User Agents"
   venue: ACM Symposium on User Interface Software and Technology (UIST 2026) (Conditionally Accepted)
   image: holter-uist2026.png
+  paper: holter-uist2026.pdf
   selected: true
   type: hci
 
@@ -9,6 +10,7 @@
   title: "Surprise2Refine: Axis-Based Exploration-To-Refinement for Agent-Assisted Creative Scaffolding"
   venue: ACM Symposium on User Interface Software and Technology (UIST 2026) (Conditionally Accepted)
   image: you-uist2026.png
+  paper: you-uist2026.pdf
   selected: true
   type: hci
 
