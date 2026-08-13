@@ -1,6 +1,6 @@
 - author: Steffen Holter, Eunyee Koh, Doga Dogan, and Gromit Yeuk-Yin Chan
   title: "UXCascade: Scalable Usability Testing with Simulated User Agents"
-  venue: ACM Symposium on User Interface Software and Technology (UIST 2026) (Conditionally Accepted)
+  venue: ACM Symposium on User Interface Software and Technology (UIST 2026)
   image: holter-uist2026.png
   paper: holter-uist2026.pdf
   selected: true
@@ -8,7 +8,7 @@
 
 - author: Yuzhe You, Gromit Yeuk-Yin Chan, Shunan Guo, Anlan Zhang, Eunyee Koh, Jian Zhao, and Tongyu Zhou
   title: "Surprise2Refine: Axis-Based Exploration-To-Refinement for Agent-Assisted Creative Scaffolding"
-  venue: ACM Symposium on User Interface Software and Technology (UIST 2026) (Conditionally Accepted)
+  venue: ACM Symposium on User Interface Software and Technology (UIST 2026)
   image: you-uist2026.png
   paper: you-uist2026.pdf
   selected: true
