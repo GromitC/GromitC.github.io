@@ -13,7 +13,11 @@ title: Home
     <div id="contact"><i class="fa fa-envelope"></i>: <span style="font-size:12px;">gromit.y.chan(at)gmail(dot)com</span></div>
     <div id="contact"><i class="fa fa-twitter"></i>: <a href="https://twitter.com/GromitC">GromitC</a> <i class="fa fa-graduation-cap"></i>: <a href="https://scholar.google.com/citations?user=t7tR7O0AAAAJ">Google Scholar</a></div>
     <div id='subsubheader'></div>
-    <div ><font color="crimson" style="font-size: 12px;">News (Feb 2026): My intern <a href="https://serendipitysx.github.io/">Shishi Xiao</a>'s work on stylized chart generation has been accepted to CVPR! Stay tuned for more details. </font></div>
+    <div id="news-feed">
+        {% for item in site.data.news %}
+        <div class="news-item"><span class="news-date">{{ item.date }}</span> — {{ item.text | strip }}</div>
+        {% endfor %}
+    </div>
 </div>
 <div id="twocolright">
     <div id="subheader">Welcome</div>

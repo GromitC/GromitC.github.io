@@ -219,6 +219,31 @@ body{
 	margin: 0px auto;
 }
 
+#maincontent #twocolleft #news-feed{
+	max-height: 220px;
+	overflow-y: auto;
+	margin-top: 5px;
+	padding-right: 6px;
+}
+
+#maincontent #twocolleft #news-feed .news-item{
+	color: crimson;
+	font-size: 12px;
+	margin-bottom: 8px;
+	padding-bottom: 8px;
+	border-bottom: 1px dashed #ddd;
+}
+
+#maincontent #twocolleft #news-feed .news-item:last-child{
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#maincontent #twocolleft #news-feed .news-date{
+	font-weight: 700;
+}
+
 #maincontent #onecol #pubTitle {
 	font-style: oblique;
 }
