@@ -1,3 +1,11 @@
+- author: Huayi Wang, Jun Xu, and Gromit Yeuk-Yin Chan
+  title: "Query-Centric Optimization of AI Workflows via Approximate Query Processing and Proxy Models"
+  venue: Proceedings of the VLDB Endowment (VLDB 2027)
+  image: wang-vldb2027.png
+  paper: wang-vldb2027.pdf
+  selected: true
+  type: algo
+
 - author: Steffen Holter, Eunyee Koh, Doga Dogan, and Gromit Yeuk-Yin Chan
   title: "UXCascade: Scalable Usability Testing with Simulated User Agents"
   venue: ACM Symposium on User Interface Software and Technology (UIST 2026)

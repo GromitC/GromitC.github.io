@@ -1,3 +1,10 @@
+- date: Nov 2026
+  text: >
+    My former intern <a target="_blank" href="https://why1221.github.io/">Huayi Wang</a>'s work on
+    <a target="_blank" href="assets/papers/wang-vldb2027.pdf">query-centric optimization of AI
+    workflows</a>, using approximate query processing and proxy models to speed up expensive
+    LLM-powered pipelines, has been accepted to VLDB 2027. Congratulations, Huayi!
+
 - date: Aug 2026
   text: >
     Both of my interns, <a target="_blank" href="https://yuzhe.vercel.app/">Yuzhe You</a> and
