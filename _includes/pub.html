@@ -1,0 +1,23 @@
+{%- assign pub = include.pub -%}
+<div class="pub-entry" data-venue="{{ pub.venue }}" data-type="{{ pub.type | default: 'other' }}">
+  <div class="pub-body">
+    <div class="pub-text">
+      <div class="pub-title"><b class="{% if pub.type == 'algo' %}sketch-teal-soft{% elsif pub.type == 'hci' %}sketch-pink-soft{% endif %}">{{ pub.title }}</b></div>
+      <div class="pub-author">{{ pub.author }}</div>
+      <div class="pub-venue">{{ pub.venue }}</div>
+    </div>
+    {% if pub.image %}
+    <div class="pub-image">
+      <img src="assets/images/teasers/{{ pub.image }}" alt="" loading="lazy">
+    </div>
+    {% endif %}
+  </div>
+  <div class="paperlink">
+    {% if pub.paper %}<a href="assets/papers/{{ pub.paper }}">preprint</a>{% endif %}
+    {% if pub.appendix %}<a href="{{ pub.appendix }}">appendix</a>{% endif %}
+    {% if pub.link %}<a href="{{ pub.link }}">link</a>{% endif %}
+    {% if pub.slide %}<a href="assets/slides/{{ pub.slide }}">slides</a>{% endif %}
+    {% if pub.video %}<a href="assets/videos/{{ pub.video }}">video</a>{% endif %}
+    {% if pub.talk %}<a href="assets/videos/{{ pub.talk }}">talk</a>{% endif %}
+  </div>
+</div>

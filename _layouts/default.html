@@ -1,89 +1,75 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="stylesheet" href="{{ "assets/css/acl.css" | relative_url }}" type="text/css" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" >
-<link rel="shortcut icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}">
-
-
-  <!-- Change title to your name NOTE: you have to do this in each of the html files-->
-  <title>Gromit Yeuk-Yin Chan</title>
-  
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-
-  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title and page.title != "Home" %}{{ page.title }} · {% endif %}Gromit Yeuk-Yin Chan</title>
+  <meta name="description" content="Gromit Yeuk-Yin Chan, Senior Research Scientist at Adobe Research. Visualization, data management, and human-computer interaction.">
+  <link rel="stylesheet" href="{{ "/assets/css/acl.css" | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ "/favicon.png" | relative_url }}">
 </head>
 
-
 <body>
-<!--center everything-->
-<div id="headwrapper">
+  <header class="site-header">
+    <div class="wrap">
+      <div class="identity">
+        <h1 class="site-name"><a href="{{ "/" | relative_url }}">Gromit Yeuk-Yin Chan</a></h1>
+        <p class="affiliation">
+          Senior Research Scientist, <a href="https://research.adobe.com/">Adobe Research</a><br>
+          Ph.D, New York University
+        </p>
+      </div>
 
-	<!--Header-->
-	<div id="header"> 
-        
-		<div id="logo">
-            <div id="Adobe"><img src=" {{ "assets/images/adobe.png" | relative_url }}"></div>
-            <div id="NYU"><img src=" {{ "assets/images/nyu.jpg" | relative_url }}"></div>
-            <div id="HKUST"><img src=" {{ "assets/images/hkust.png" | relative_url }}"></div>
+      <div class="logos" aria-hidden="true">
+        <img class="logo-adobe" src="{{ "/assets/images/adobe.png" | relative_url }}" alt="">
+        <div class="logo-stack">
+          <img src="{{ "/assets/images/nyu.jpg" | relative_url }}" alt="">
+          <img src="{{ "/assets/images/hkust.png" | relative_url }}" alt="">
         </div>
-		<!--Name-->
-		<div id="name">Gromit Yeuk-Yin Chan</div>
-		<div id="affiliation">Senior Research Scientist, <a href="https://research.adobe.com/" style="color:white;">Adobe Research</a><br /> Ph.D, New York University</div>
-		<div id="navi">	
-            <a href="{{ "index.html" | relative_url }}"><div id="{% if page.title == "Home" %}on{% else %}off{% endif %}">Home</div></a>
-			<a href="{{ "assets/cv/CV-Gromit.pdf" | relative_url }}"><div id="{% if page.title == "CV" %}on{% else %}off{% endif %}">CV</div></a>
-			<a href="{{"research.html" | relative_url }}"><div id="{% if page.title == "Research" %}on{% else %}off{% endif %}">Research</div></a>
-			<a href="{{ "blog.html" | relative_url }}"><div id="{% if page.title == "Blog" %}on{% else %}off{% endif %}">Blog</div></a>
-		    <a href="{{"personal.html" | relative_url }}"><div id="{% if page.title == "Personal" %}on{% else %}off{% endif %}">Personal</div></a>
-		</div>
-	</div>
-	<!--end Header-->
-</div>
-<div id="outerwrapper">
-	<!--Content-->
-	<div id="maincontent">
-		{{ content }}
-	</div>
-	<!--end Content-->
-</div>
-	<!--Foot-->
-	<div id="footer">A08-429, 345 Park Avenue, San Jose, CA 95110<br />Design inspired by <a href="https://personal.lse.ac.uk/lembcke/personal.html" style="color:white;"> this LSE Economics Department personal page</a>.</div>
+      </div>
 
-	<!--end Foot-->
+      <nav class="site-nav" aria-label="Main">
+        <a href="{{ "/index.html" | relative_url }}" class="{% if page.title == "Home" %}on{% endif %}">Home</a>
+        <a href="{{ "/assets/cv/CV-Gromit.pdf" | relative_url }}">CV</a>
+        <a href="{{ "/research.html" | relative_url }}" class="{% if page.title == "Research" %}on{% endif %}">Research</a>
+        <a href="{{ "/blog.html" | relative_url }}" class="{% if page.title == "Blog" or page.layout == "post" %}on{% endif %}">Blog</a>
+        <a href="{{ "/personal.html" | relative_url }}" class="{% if page.title == "Personal" %}on{% endif %}">Personal</a>
+      </nav>
+    </div>
+  </header>
 
-<!--end center everything-->
-<script type="text/javascript">
-let slideIndex = 1;
-if (document.getElementsByClassName("mySlides").length > 0) showSlides(slideIndex);
+  <main class="site-main">
+    <div class="wrap">
+      {{ content }}
+    </div>
+  </main>
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+  <footer class="site-footer">
+    <div class="wrap">
+      A08-429, 345 Park Avenue, San Jose, CA 95110<br>
+      Design inspired by <a href="https://personal.lse.ac.uk/lembcke/personal.html">this LSE Economics Department personal page</a>.
+    </div>
+  </footer>
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
+  <script>
+    // Simple slideshow (used on the Personal page).
+    var slideIndex = 1;
+    function plusSlides(n) { showSlides(slideIndex += n); }
+    function currentSlide(n) { showSlides(slideIndex = n); }
+    function showSlides(n) {
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (slides.length === 0) return;
+      if (n > slides.length) { slideIndex = 1; }
+      if (n < 1) { slideIndex = slides.length; }
+      for (var i = 0; i < slides.length; i++) { slides[i].style.display = "none"; }
+      for (var j = 0; j < dots.length; j++) { dots[j].className = dots[j].className.replace(" active", ""); }
+      slides[slideIndex - 1].style.display = "block";
+      if (dots.length >= slideIndex) { dots[slideIndex - 1].className += " active"; }
+    }
+    if (document.getElementsByClassName("mySlides").length > 0) { showSlides(slideIndex); }
+  </script>
 </body>
 </html>

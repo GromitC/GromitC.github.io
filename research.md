@@ -21,84 +21,12 @@ title: Research
   </div>
   <div id="tab-selected" class="tab-content" style="display:block;">
     {% for pub in site.data.publications %}
-      {% if pub.selected %}
-        <div class="pub-entry" data-venue="{{ pub.venue }}" data-type="{{ pub.type | default: 'other' }}">
-          <table>
-            <tr>
-              <td id="leftcol">
-                <div id="pubTitle"><b class="{% if pub.type == 'algo' %}sketch-teal-soft{% elsif pub.type == 'hci' %}sketch-pink-soft{% endif %}">{{ pub.title }}</b></div>
-                <div id="pubAuthor">{{ pub.author}}</div>
-                {{ pub.venue }}
-              </td>
-              <td id="rightcol">
-                {% if pub.image %}
-                <img src='assets/images/teasers/{{ pub.image}}'>
-                {% endif %}
-              </td>
-            </tr>
-          </table>
-          <div id="paperlink">
-            {% if pub.paper %}
-            <a href="assets/papers/{{ pub.paper }}">preprint</a>
-            {% endif %}
-            {% if pub.appendix %}
-            <a href="{{pub.appendix}}">appendix</a>
-            {% endif %}
-            {% if pub.link %}
-            <a href="{{pub.link}}">link</a>
-            {% endif %}
-            {% if pub.slide %}
-            <a href="assets/slides/{{pub.slide}}">slides</a>
-            {% endif %}
-            {% if pub.video %}
-            <a href="assets/videos/{{pub.video}}">video</a>
-            {% endif %}
-            {% if pub.talk %}
-            <a href="assets/videos/{{pub.talk}}">talk</a>
-            {% endif %}
-          </div>
-        </div>
-      {% endif %}
+      {% if pub.selected %}{% include pub.html pub=pub %}{% endif %}
     {% endfor %}
   </div>
   <div id="tab-all" class="tab-content" style="display:none;">
     {% for pub in site.data.publications %}
-      <div class="pub-entry" data-venue="{{ pub.venue }}" data-type="{{ pub.type | default: 'other' }}">
-        <table>
-          <tr>
-            <td id="leftcol">
-              <div id="pubTitle"><b class="{% if pub.type == 'algo' %}sketch-teal-soft{% elsif pub.type == 'hci' %}sketch-pink-soft{% endif %}">{{ pub.title }}</b></div>
-              <div id="pubAuthor">{{ pub.author}}</div>
-              {{ pub.venue }}
-            </td>
-            <td id="rightcol">
-              {% if pub.image %}
-              <img src='assets/images/teasers/{{ pub.image}}'>
-              {% endif %}
-            </td>
-          </tr>
-        </table>
-        <div id="paperlink">
-          {% if pub.paper %}
-          <a href="assets/papers/{{ pub.paper }}">preprint</a>
-          {% endif %}
-          {% if pub.appendix %}
-          <a href="{{pub.appendix}}">appendix</a>
-          {% endif %}
-          {% if pub.link %}
-          <a href="{{pub.link}}">link</a>
-          {% endif %}
-          {% if pub.slide %}
-          <a href="assets/slides/{{pub.slide}}">slides</a>
-          {% endif %}
-          {% if pub.video %}
-          <a href="assets/videos/{{pub.video}}">video</a>
-          {% endif %}
-          {% if pub.talk %}
-          <a href="assets/videos/{{pub.talk}}">talk</a>
-          {% endif %}
-        </div>
-      </div>
+      {% include pub.html pub=pub %}
     {% endfor %}
   </div>
 </div>

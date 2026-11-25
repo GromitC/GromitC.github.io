@@ -16,3 +16,6 @@ assets/cv/CV-Gromit.synctex.gz
 CV-Gromit.aux
 CV-Gromit.bbl
 CV-Gromit.xdv
+.playwright-mcp
+mcp-server.log
+assets/cv/missfont.log
